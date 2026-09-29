@@ -81,24 +81,14 @@ git tag $VERSION
 git push origin $VERSION
 ```
 
-### Step 3: Build Distribution Artifacts
-Build the source distribution (`.tar.gz`) and wheel (`.whl`):
-```bash
-uv build
-```
-Verify the generated files in `dist/`:
-```bash
-ls -l dist/
-```
+### Step 3: Create GitHub Release
+1. Navigate to [GitHub releases](https://github.com/davidfischer/mtg-archetypes/releases/new).
+2. Select tag `$VERSION` (e.g. `2026.9.0`).
+3. Provide release notes listing updated archetype classifications or other changes.
+4. Click **Publish release**.
 
-### Step 4: Publish to PyPI
-Publish using `uv`:
-```bash
-uv publish
-```
-*(Requires `UV_PUBLISH_TOKEN` environment variable or PyPI API token).*
-
-### Step 5: Create GitHub Release
-1. Navigate to GitHub releases: `https://github.com/<owner>/mtg-archetypes/releases/new`
-2. Select tag (eg. `2026.9.0`).
-3. Provide release notes listing new, updated, or retired archetype classifications.
+### Step 4: Automated PyPI Publication
+Publishing to PyPI is automated via GitHub Actions and **PyPI Trusted Publishing (OIDC)**:
+* Creating the GitHub release triggers [`.github/workflows/release.yml`](.github/workflows/release.yml).
+* The workflow builds the package artifacts (`uv build`) and publishes to PyPI (`uv publish`) using OIDC authentication.
+* You can monitor the deployment progress under the repository's **Actions** tab.
