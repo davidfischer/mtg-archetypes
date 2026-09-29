@@ -1,0 +1,16 @@
+name: "Reanimator"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "reanimate"
+
+signatures:
+  - "animate dead"
+  - "exhume"
+  - "life // death"
+  - "putrid imp"
+  - "Careful Study"
+  - "Akroma, Angel of Wrath"
+  - "Phantom Nishoba"
+min_signatures: 3

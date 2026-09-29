@@ -1,0 +1,15 @@
+name: "Faeries"
+category: "Aggro"
+priority: 95
+
+mandatory:
+  - "spellstutter sprite"
+
+signatures:
+  - "faerie seer"
+  - "Faerie Miscreant"
+  - "ninja of the deep hours"
+  - "moon-circuit hacker"
+  - "Brinebarrow Intruder"
+  - "Of One Mind"
+min_signatures: 3

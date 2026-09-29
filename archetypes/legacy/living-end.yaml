@@ -1,0 +1,16 @@
+name: "Living End"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "living end"
+
+signatures:
+  - "bloodbraid marauder"
+  - "incubation // incongruity"
+  - "generous ent"
+  - "colossal skyturtle"
+  - "animate dead"
+  - "troll of khazad-dum"
+  - "grief"
+min_signatures: 2

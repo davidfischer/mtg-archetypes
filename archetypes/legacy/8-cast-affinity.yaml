@@ -1,0 +1,16 @@
+name: "8-Cast / Affinity"
+category: "Stompy"
+priority: 85
+
+mandatory:
+  - "emry, lurker of the loch"
+
+signatures:
+  - "kappa cannoneer"
+  - "thoughtcast"
+  - "thought monitor"
+  - "sai, master thopterist"
+  - "mishra's bauble"
+  - "mox opal"
+  - "pinnacle emissary"
+min_signatures: 3

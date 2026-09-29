@@ -1,0 +1,25 @@
+name: "Hogaak"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "hogaak, arisen necropolis"
+
+signatures:
+  - "altar of dementia"
+  - "vengevine"
+  - "stitcher's supplier"
+  - "cabal therapy"
+  - "Bridge from Below"
+  - "Gravecrawler"
+  - "Moonshadow"
+  - "wight of the reliquary"
+  - "sylvan safekeeper"
+  - "elvish reclaimer"
+  - "grief"
+  - "troll of khazad-dum"
+min_signatures: 3
+
+anti_signatures:
+  - "Dark Depths"
+  - "Smallpox"

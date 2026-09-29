@@ -1,0 +1,19 @@
+name: "Elves"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "glimpse of nature"
+
+signatures:
+  - "heritage druid"
+  - "craterhoof behemoth"
+  - "wirewood symbiote"
+  - "allosaurus shepherd"
+  - "nettle sentinel"
+  - "natural order"
+  - "Elvish Visionary"
+min_signatures: 3
+
+anti_signatures:
+  - "wight of the reliquary"

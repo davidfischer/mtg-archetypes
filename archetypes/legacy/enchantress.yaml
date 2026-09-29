@@ -1,0 +1,16 @@
+name: "Enchantress"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "argothian enchantress"
+
+signatures:
+  - "serra's sanctum"
+  - "utopia sprawl"
+  - "on thin ice"
+  - "wild growth"
+  - "destiny spinner"
+  - "enchantresss presence"
+  - "sythis harvests hand"
+min_signatures: 3

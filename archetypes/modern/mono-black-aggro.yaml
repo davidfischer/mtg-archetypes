@@ -1,0 +1,18 @@
+name: "Mono-Black Aggro"
+category: "Aggro"
+priority: 70
+
+signatures:
+  - "Ifnir Deadlands"
+  - "Nethergoyf"
+  - "Thought-Knot Seer"
+  - "Fatal Push"
+  - "Kozilek's Command"
+  - "Thoughtseize"
+  - "Orcish Bowmasters"
+min_signatures: 4
+
+anti_signatures:
+  - "Psychic Frog"
+  - "Basking Broodscale"
+  - "Sowing Mycospawn"

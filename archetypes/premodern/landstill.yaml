@@ -1,0 +1,15 @@
+name: "Landstill"
+category: "Control"
+priority: 100
+
+mandatory:
+  - "standstill"
+
+signatures:
+  - "mishra's factory"
+  - "Kjeldoran Outpost"
+  - "Eternal Dragon"
+  - "Humility"
+  - "Decree of Justice"
+  - "Faerie Conclave"
+min_signatures: 3

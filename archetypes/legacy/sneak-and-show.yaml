@@ -1,0 +1,13 @@
+name: "Sneak and Show"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "show and tell"
+  - "sneak attack"
+
+signatures:
+  - "omniscience"
+  - "atraxa, grand unifier"
+  - "emrakul, the aeons torn"
+min_signatures: 2

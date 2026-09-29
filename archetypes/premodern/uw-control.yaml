@@ -1,0 +1,20 @@
+name: "UW Control"
+category: "Control"
+priority: 70
+
+mandatory:
+  - "counterspell"
+  - "swords to plowshares"
+
+signatures:
+  - "mana leak"
+  - "wrath of god"
+  - "powder keg"
+  - "Decree of Justice"
+  - "Accumulated Knowledge"
+  - "Exalted Angel"
+min_signatures: 3
+
+anti_signatures:
+  - "standstill"
+  - "psychatog"

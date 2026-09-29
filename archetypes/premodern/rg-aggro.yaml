@@ -1,0 +1,17 @@
+name: "RG Aggro"
+category: "Aggro"
+priority: 85
+
+mandatory:
+  - "Karplusan Forest"
+
+signatures:
+  - "lightning bolt"
+  - "mogg fanatic"
+  - "jackal pup"
+  - "grim lavamancer"
+  - "cursed scroll"
+  - "Call of the Herd"
+  - "sylvan library"
+  - "treetop village"
+min_signatures: 4

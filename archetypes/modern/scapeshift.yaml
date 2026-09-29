@@ -1,0 +1,16 @@
+name: "Scapeshift"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "scapeshift"
+  - "valakut the molten pinnacle"
+
+signatures:
+  - "wish"
+  - "dryad of the ilysian grove"
+  - "wrenn and six"
+min_signatures: 2
+
+anti_signatures:
+  - "Amulet of Vigor"

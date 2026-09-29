@@ -1,0 +1,16 @@
+name: "Energy"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "ocelot pride"
+  - "guide of souls"
+
+signatures:
+  - "ajani, nacatl pariah"
+  - "voice of victory"
+  - "swords to plowshares"
+  - "skullclamp"
+  - "mai scornful striker"
+  - "dark confidant"
+min_signatures: 2

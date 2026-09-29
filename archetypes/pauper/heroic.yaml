@@ -1,0 +1,14 @@
+name: "Heroic"
+category: "Aggro"
+priority: 90
+
+signatures:
+  - "Lagonna-Band Trailblazer"
+  - "Skyward Spider"
+  - "benevolent blessing"
+  - "akroan skyguard"
+  - "spirit link"
+  - "emerge unscathed"
+  - "homestead courage"
+  - "hyena umbra"
+min_signatures: 4

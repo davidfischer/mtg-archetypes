@@ -1,0 +1,15 @@
+name: "Cosmogoyf"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "cosmogoyf"
+
+signatures:
+  - "pact of negation"
+  - "thud"
+  - "plunge into darkness"
+  - "Serum Powder"
+  - "Devourer of Destiny"
+  - "Callous Sell-Sword"
+min_signatures: 2

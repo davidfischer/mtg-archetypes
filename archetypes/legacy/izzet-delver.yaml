@@ -1,0 +1,21 @@
+name: "Izzet Delver"
+category: "Tempo"
+priority: 100
+
+mandatory:
+  - "delver of secrets"
+
+signatures:
+  - "daze"
+  - "murktide regent"
+  - "dragon's rage channeler"
+  - "lightning bolt"
+  - "force of will"
+  - "volcanic island"
+  - "cori-steel cutter"
+min_signatures: 2
+
+anti_signatures:
+  - "psychic frog"
+  - "underground sea"
+  - "tropical island"

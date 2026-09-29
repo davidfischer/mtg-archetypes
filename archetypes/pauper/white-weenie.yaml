@@ -1,0 +1,14 @@
+name: "White Weenie"
+category: "Aggro"
+priority: 90
+
+signatures:
+  - "Ramosian Rally"
+  - "Guardians' Pledge"
+  - "Battle Screech"
+  - "Leonardo, Big Brother"
+  - "Thraben Inspector"
+  - "Novice Inspector"
+  - "Summon: Choco/Mog"
+  - "Raffine's Informant"
+min_signatures: 4

@@ -1,0 +1,12 @@
+name: "Ruby Storm"
+category: "Combo"
+priority: 95
+
+signatures:
+  - "Manamorphose"
+  - "Seething Song"
+  - "Seize the Storm"
+  - "Desperate Ritual"
+  - "Thornscape Familiar"
+  - "Goblin Anarchomancer"
+min_signatures: 3

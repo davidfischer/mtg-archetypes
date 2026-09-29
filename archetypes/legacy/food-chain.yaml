@@ -1,0 +1,19 @@
+name: "Food Chain"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "food chain"
+
+signatures:
+  - "misthollow griffin"
+  - "squee, the immortal"
+  - "eternal scourge"
+  - "questing druid // seek the beast"
+  - "unstable amulet"
+  - "galvanic discharge"
+min_signatures: 3
+
+anti_signatures:
+  - "muxus, goblin grandee"
+  - "goblin ringleader"

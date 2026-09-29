@@ -1,0 +1,15 @@
+name: "Necro Spike"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "soul spike"
+  - "necrodominance"
+
+signatures:
+  - "march of wretched sorrow"
+  - "fell the profane // fell mire"
+  - "sheoldred the apocalypse"
+  - "the one ring"
+  - "ancient cellarspawn"
+min_signatures: 3

@@ -1,0 +1,20 @@
+name: "Dredge"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "Stinkweed Imp"
+
+signatures:
+  - "Faithless Looting"
+  - "Burning Inquiry"
+  - "Greater Mossdog"
+  - "Dread Return"
+  - "Lotleth Giant"
+  - "Scrapwork Mutt"
+  - "Masked Meower"
+  - "Satyr Wayfinder"
+min_signatures: 3
+
+anti_signatures:
+  - "Balustrade Spy"

@@ -1,0 +1,16 @@
+name: "Belcher"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - card: "Goblin Charbelcher"
+    min: 3
+
+signatures:
+  - "Hydroelectric Specimen"
+  - "Suppression Ray"
+  - "Sea Gate Restoration"
+  - "Beyeen Veil"
+  - "Jwari Disruption"
+  - "Whir of Invention"
+min_signatures: 3

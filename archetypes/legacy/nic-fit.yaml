@@ -1,0 +1,16 @@
+name: "Nic Fit"
+category: "Midrange"
+priority: 85
+
+mandatory:
+  - "veteran explorer"
+
+signatures:
+  - "cabal therapy"
+  - "green sun's zenith"
+  - "phyrexian tower"
+  - "assassin's trophy"
+min_signatures: 2
+
+anti_signatures:
+  - "aluren"

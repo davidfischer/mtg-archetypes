@@ -1,0 +1,17 @@
+name: "CounterVine"
+category: "Aggro"
+priority: 95
+
+mandatory:
+  - card: "bazaar of baghdad"
+    min: 3
+  - "Vengevine"
+
+signatures:
+  - "basking rootwalla"
+  - "blazing rootwalla"
+  - "master of death"
+  - "squee, goblin nabob"
+  - "hollow one"
+  - "force of will"
+min_signatures: 3

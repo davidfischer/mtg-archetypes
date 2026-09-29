@@ -1,0 +1,18 @@
+name: "Oath"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - "Oath of Druids"
+
+signatures:
+  - "terravore"
+  - "mox diamond"
+  - "thermokarst"
+  - "Sylvan Library"
+  - "treetop village"
+  - "sphere of resistance"
+min_signatures: 3
+
+anti_signatures:
+  - "armageddon"

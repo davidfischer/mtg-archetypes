@@ -1,0 +1,16 @@
+name: "Jewel"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "coveted jewel"
+
+signatures:
+  - "the one ring"
+  - "manifold key"
+  - "glaring fleshraker"
+  - "urzas saga"
+  - "voltaic key"
+  - "copy artifact"
+  - "grim monolith"
+min_signatures: 3

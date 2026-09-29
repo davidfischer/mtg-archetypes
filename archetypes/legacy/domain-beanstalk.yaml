@@ -1,0 +1,14 @@
+name: "Domain Beanstalk"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "leyline of the guildpact"
+  - "up the beanstalk"
+
+signatures:
+  - "leyline binding"
+  - "murktide regent"
+  - "scion of draco"
+  - "force of will"
+min_signatures: 2

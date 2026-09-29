@@ -1,0 +1,22 @@
+name: "Dimir Tempo"
+category: "Tempo"
+priority: 75
+
+mandatory:
+  - "daze"
+
+signatures:
+  - "orcish bowmasters"
+  - "murktide regent"
+  - "force of will"
+  - "undercity sewers"
+  - "psychic frog"
+min_signatures: 3
+
+anti_signatures:
+  - "delver of secrets"
+  - "yuriko, the tiger's shadow"
+  - "doomsday"
+  - "up the beanstalk"
+  - "tropical island"
+  - "volcanic island"

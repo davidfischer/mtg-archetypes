@@ -1,0 +1,15 @@
+name: "BUG Lurrus"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - "Lurrus of the Dream-Den"
+  - "Deathrite Shaman"
+
+signatures:
+  - "Kishla Skimmer"
+  - "Psychic Frog"
+  - "Abrupt Decay"
+  - "Collector Ouphe"
+  - "Force of Vigor"
+min_signatures: 3

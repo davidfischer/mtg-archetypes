@@ -1,0 +1,17 @@
+name: "Mono-Black Aggro"
+category: "Aggro"
+priority: 80
+
+signatures:
+  - "hypnotic specter"
+  - "sinkhole"
+  - "hymn to tourach"
+  - "dark ritual"
+  - "Graveborn Muse"
+  - "Mishra's Factory"
+min_signatures: 3
+
+anti_signatures:
+  - "lightning bolt"
+  - "swords to plowshares"
+  - "caves of koilos"

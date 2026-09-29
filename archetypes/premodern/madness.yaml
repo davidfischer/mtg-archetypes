@@ -1,0 +1,14 @@
+name: "Madness"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "Arrogant Wurm"
+
+signatures:
+  - "Basking Rootwalla"
+  - "Tireless Tribe"
+  - "Wild Mongrel"
+  - "Patrol Hound"
+  - "Glory"
+min_signatures: 2

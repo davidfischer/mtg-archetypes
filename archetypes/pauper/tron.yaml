@@ -1,0 +1,15 @@
+name: "Tron"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - "urza's tower"
+  - "urza's mine"
+  - "urza's power plant"
+
+signatures:
+  - "malevolent rumble"
+  - "expedition map"
+  - "crop rotation"
+  - "Giant's Boulder"
+min_signatures: 1

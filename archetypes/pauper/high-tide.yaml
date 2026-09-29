@@ -1,0 +1,17 @@
+name: "High Tide"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "High Tide"
+
+signatures:
+  - "ideas unbound"
+  - "peer through depths"
+  - "reach through mists"
+  - "pieces of the puzzle"
+  - "Hidden Strings"
+  - "Merchant Scroll"
+  - "Psychic Puppetry"
+  - "Snap"
+min_signatures: 3

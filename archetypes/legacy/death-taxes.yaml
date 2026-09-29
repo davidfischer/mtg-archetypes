@@ -1,0 +1,20 @@
+name: "Death & Taxes"
+category: "Control"
+priority: 85
+
+mandatory:
+  - "aether vial"
+  - "recruiter of the guard"
+
+signatures:
+  - "thalia, guardian of thraben"
+  - "flickerwisp"
+  - "stoneforge mystic"
+  - "solitude"
+  - "karakas"
+  - "skyclave apparition"
+min_signatures: 2
+
+anti_signatures:
+  - "force of will"
+  - "brainstorm"

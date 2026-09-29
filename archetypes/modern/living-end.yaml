@@ -1,0 +1,18 @@
+name: "Living End"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - card: "living end"
+    min: 2
+
+signatures:
+  - "shardless agent"
+  - "violent outburst"
+  - "Generous Ent"
+  - "striped riverwinder"
+  - "curator of mysteries"
+  - "oliphaunt"
+  - "Wistfulness"
+  - "Deceit"
+min_signatures: 3

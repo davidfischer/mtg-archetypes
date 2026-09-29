@@ -1,0 +1,16 @@
+name: "Hammer Time"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - card: "Colossus Hammer"
+    min: 3
+
+signatures:
+  - "Steelshaper's Gift"
+  - "Stoneforge Mystic"
+  - "Puresteel Paladin"
+  - "Kili the Resourceful"
+  - "Ornithopter"
+  - "Sigarda's Aid"
+min_signatures: 3

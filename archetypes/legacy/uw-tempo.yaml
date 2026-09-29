@@ -1,0 +1,21 @@
+name: "UW Tempo"
+category: "Tempo"
+priority: 75
+
+mandatory:
+  - "daze"
+  - "swords to plowshares"
+
+signatures:
+  - "brainstorm"
+  - "flooded strand"
+  - "ponder"
+  - "force of will"
+  - "wasteland"
+  - "stifle"
+  - "phelia, exuberant shepherd"
+min_signatures: 3
+
+anti_signatures:
+  - "tropical island"
+  - "underground sea"

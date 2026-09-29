@@ -1,0 +1,14 @@
+name: "Hermit Ghoul"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "Hermit Druid"
+  - "Sutured Ghoul"
+
+signatures:
+  - "phyrexian dreadnought"
+  - "stifle"
+  - "Shallow Grave"
+  - "vision charm"
+min_signatures: 2

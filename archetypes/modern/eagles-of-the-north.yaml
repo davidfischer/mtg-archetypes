@@ -1,0 +1,15 @@
+name: "Eagles Of The North"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "martyr of sands"
+
+signatures:
+  - "eagles of the north"
+  - "abiding grace"
+  - "Kami of False Hope"
+  - "Haywire Mite"
+  - "Ranger-Captain of Eos"
+  - "Emeria, the Sky Ruin"
+min_signatures: 2

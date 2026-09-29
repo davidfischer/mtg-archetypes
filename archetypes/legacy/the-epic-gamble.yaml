@@ -1,0 +1,18 @@
+name: "The Epic Gamble"
+category: "Combo"
+priority: 97
+
+mandatory:
+  - "gamble"
+
+signatures:
+  - "birgi, god of storytelling"
+  - "burning wish"
+  - "ral, monsoon mage"
+  - "lion's eye diamond"
+  - "echo of eons"
+min_signatures: 3
+
+anti_signatures:
+  - "Beseech the Mirror"
+  - "ruby medallion"

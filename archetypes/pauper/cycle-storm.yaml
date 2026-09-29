@@ -1,0 +1,16 @@
+name: "Cycle Storm"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "Reaping the Graves"
+
+signatures:
+  - "monstrous carabid"
+  - "drannith stinger"
+  - "Drannith Healer"
+  - "street wraith"
+  - "Songs of the Damned"
+  - "Horror of the Broken Lands"
+  - "Page, Loose Leaf"
+min_signatures: 3

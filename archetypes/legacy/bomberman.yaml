@@ -1,0 +1,13 @@
+name: "Bomberman"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "auriok salvagers"
+  - "lion's eye diamond"
+
+signatures:
+  - "chalice of the void"
+  - "karn the great creator"
+  - "glaring fleshraker"
+min_signatures: 2

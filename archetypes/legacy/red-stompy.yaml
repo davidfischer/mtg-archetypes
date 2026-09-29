@@ -1,0 +1,20 @@
+name: "Red Stompy"
+category: "Stompy"
+priority: 85
+
+mandatory:
+  - "shatterskull smashing"
+
+signatures:
+  - "sundering eruption"
+  - "pyrogoyf"
+  - "the one ring"
+  - "magus of the moon"
+  - "fable of the mirror-breaker"
+  - "simian spirit guide"
+  - "broadside bombardiers"
+min_signatures: 3
+
+anti_signatures:
+  - "goblin welder"
+  - "goblin engineer"

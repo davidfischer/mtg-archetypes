@@ -1,0 +1,16 @@
+name: "Neobrand"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "allosaurus rider"
+  - "Neoform"
+
+signatures:
+  - "Generous Ent"
+  - "eldritch evolution"
+  - "Planar Genesis"
+  - "Pact of Negation"
+  - "Ureni, the Song Unending"
+  - "Griselbrand"
+min_signatures: 2

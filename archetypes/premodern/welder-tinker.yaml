@@ -1,0 +1,16 @@
+name: "Welder Tinker"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "tinker"
+  - "goblin welder"
+
+signatures:
+  - "Triskelion"
+  - "Sphere of Resistance"
+  - "Tangle Wire"
+  - "Winter Orb"
+  - "Thran Dynamo"
+  - "Masticore"
+min_signatures: 2

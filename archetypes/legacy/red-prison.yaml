@@ -1,0 +1,22 @@
+name: "Red Prison"
+category: "Stompy"
+priority: 90
+
+mandatory:
+  - "blood moon"
+
+signatures:
+  - "chalice of the void"
+  - "broadside bombardiers"
+  - "magus of the moon"
+  - "fable of the mirror-breaker"
+  - "the one ring"
+  - "simian spirit guide"
+  - "ancient tomb"
+  - "trinisphere"
+min_signatures: 3
+
+anti_signatures:
+  - "goblin welder"
+  - "goblin engineer"
+  - "caves of chaos adventurer"

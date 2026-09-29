@@ -1,0 +1,20 @@
+name: "Madness"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "Fiery Temper"
+  - "Faithless Looting"
+
+signatures:
+  - "Lightning Bolt"
+  - "Lava Dart"
+  - "Grab the Prize"
+  - "Voldaren Epicure"
+  - "Kitchen Imp"
+  - "Highway Robbery"
+min_signatures: 3
+
+anti_signatures:
+  - "Rally at the Hornburg"
+  - "Dread Return"

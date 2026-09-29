@@ -1,0 +1,18 @@
+name: "Esper Vial"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "aether vial"
+  - "force of will"
+
+signatures:
+  - "recruiter of the guard"
+  - "swords to plowshares"
+  - "baleful strix"
+  - "meddling mage"
+  - "orcish bowmasters"
+min_signatures: 2
+
+anti_signatures:
+  - "lord of atlantis"

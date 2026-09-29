@@ -1,0 +1,15 @@
+name: "Oops All Spells"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "balustrade spy"
+
+signatures:
+  - "narcomoeba"
+  - "dread return"
+  - "chancellor of the annex"
+  - "thassa's oracle"
+  - "poxwalkers"
+  - "undercity informer"
+min_signatures: 2

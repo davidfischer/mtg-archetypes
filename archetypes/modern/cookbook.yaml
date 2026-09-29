@@ -1,0 +1,20 @@
+name: "Cookbook"
+category: "Midrange"
+priority: 60
+
+mandatory:
+  - "asmoranomardicadaistinaculdacar"
+  - "ovalchase daredevil"
+  - "the underworld cookbook"
+
+signatures:
+  - "Monument to Endurance"
+  - "Faithless Looting"
+  - "Academy Manufactor"
+  - "Time Sieve"
+  - "street wraith"
+  - "galvanic blast"
+min_signatures: 1
+
+anti_signatures:
+  - "Lantern of Insight"

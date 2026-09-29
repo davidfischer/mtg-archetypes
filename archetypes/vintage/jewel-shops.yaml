@@ -1,0 +1,16 @@
+name: "Jewel Shops"
+category: "Prison"
+priority: 95
+
+mandatory:
+  - "coveted jewel"
+  - card: "mishra's workshop"
+    min: 3
+
+signatures:
+  - "Tinker"
+  - "trinisphere"
+  - "The One Ring"
+  - "Phyrexian Metamorph"
+  - "Transmute Artifact"
+min_signatures: 2

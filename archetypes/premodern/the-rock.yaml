@@ -1,0 +1,15 @@
+name: "The Rock"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - "pernicious deed"
+
+signatures:
+  - "spiritmonger"
+  - "deranged hermit"
+  - "cabal therapy"
+  - "Krosan Tusker"
+  - "yavimaya elder"
+  - "genesis"
+min_signatures: 2

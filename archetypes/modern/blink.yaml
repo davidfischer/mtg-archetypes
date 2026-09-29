@@ -1,0 +1,15 @@
+name: "Blink"
+category: "Midrange"
+priority: 95
+
+mandatory:
+  - "Ephemerate"
+  - "Phelia, Exuberant Shepherd"
+
+signatures:
+  - "Overlord of the Balemurk"
+  - "Quantum Riddler"
+  - "Solitude"
+  - "Flickerwisp"
+  - "Emperor of Bones"
+min_signatures: 2

@@ -1,0 +1,18 @@
+name: "Engineers"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "goblin engineer"
+  - "agathas soul cauldron"
+
+signatures:
+  - "phyrexian devourer"
+  - "great furnace"
+  - "goblin welder"
+  - "phyrexian dragon engine"
+min_signatures: 2
+
+anti_signatures:
+  - "painter's servant"
+  - "sewer-veillance cam"

@@ -1,0 +1,13 @@
+name: "Hardened Scales"
+category: "Aggro"
+priority: 95
+
+mandatory:
+  - "hardened scales"
+
+signatures:
+  - "arcbound ravager"
+  - "zabaz, the glimmerwasp"
+  - "agatha's soul cauldron"
+  - "the ozolith"
+min_signatures: 2

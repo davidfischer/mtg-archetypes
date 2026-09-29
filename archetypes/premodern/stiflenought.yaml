@@ -1,0 +1,16 @@
+name: "Stiflenought"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "phyrexian dreadnought"
+  - "stifle"
+
+signatures:
+  - "foil"
+  - "thwart"
+  - "vision charm"
+min_signatures: 1
+
+anti_signatures:
+  - "Sutured Ghoul"

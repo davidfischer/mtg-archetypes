@@ -1,0 +1,14 @@
+name: "Inside Out"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "Inside Out"
+
+signatures:
+  - "Tireless Tribe"
+  - "Fling"
+  - "Loran's Escape"
+  - "Aurora Eidolon"
+  - "Thrilling Discovery"
+min_signatures: 2

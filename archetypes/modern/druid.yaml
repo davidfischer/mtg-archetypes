@@ -1,0 +1,16 @@
+name: "Druid"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - card: "Devoted Druid"
+    min: 3
+
+signatures:
+  - "Nature's Rhythm"
+  - "Agatha's Soul Cauldron"
+  - "Leyline of Abundance"
+  - "Tyvar, Jubilant Brawler"
+  - "Duskwatch Recruiter"
+  - "Walking Ballista"
+min_signatures: 3

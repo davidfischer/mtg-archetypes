@@ -1,0 +1,16 @@
+name: "Spy Combo"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - card: "Balustrade Spy"
+    min: 3
+
+signatures:
+  - "Troll of Khazad-dum"
+  - "Land Grant"
+  - "Lotleth Giant"
+  - "Dread Return"
+  - "Sagu Wildling"
+  - "Generous Ent"
+min_signatures: 3

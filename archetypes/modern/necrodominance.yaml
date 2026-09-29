@@ -1,0 +1,17 @@
+name: "Necrodominance"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - card: "necrodominance"
+    min: 3
+
+signatures:
+  - "soul spike"
+  - "sheoldred the apocalypse"
+  - "orcish bowmasters"
+  - "Caustic Bronco"
+  - "March of Wretched Sorrow"
+  - "Dauthi Voidwalker"
+  - "Force of Despair"
+min_signatures: 3

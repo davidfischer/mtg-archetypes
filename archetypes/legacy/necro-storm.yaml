@@ -1,0 +1,15 @@
+name: "Necro Storm"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "necrodominance"
+
+signatures:
+  - "Borne Upon a Wind"
+  - "Beseech the Mirror"
+  - "Pact of Negation"
+  - "dark ritual"
+  - "lotus petal"
+  - "Manamorphose"
+min_signatures: 3

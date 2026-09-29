@@ -1,0 +1,19 @@
+name: "Affinity"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "thoughtcast"
+
+signatures:
+  - "Myr Enforcer"
+  - "Great Furnace"
+  - "Drossforge Bridge"
+  - "Mistvault Bridge"
+  - "Silverbluff Bridge"
+  - "Vault of Whispers"
+  - "Seat of the Synod"
+  - "darksteel citadel"
+  - "All That Glitters"
+  - "novice inspector"
+min_signatures: 3

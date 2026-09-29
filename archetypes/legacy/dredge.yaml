@@ -1,0 +1,20 @@
+name: "Dredge"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "golgari grave-troll"
+
+signatures:
+  - "stinkweed imp"
+  - "bridge from below"
+  - "ichorid"
+  - "narcomoeba"
+  - "cabal therapy"
+  - "lion's eye diamond"
+  - "Otherworldly Gaze"
+  - "Poxwalkers"
+min_signatures: 3
+
+anti_signatures:
+  - "balustrade spy"

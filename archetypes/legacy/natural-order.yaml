@@ -1,0 +1,19 @@
+name: "Natural Order"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "natural order"
+
+signatures:
+  - "green suns zenith"
+  - "ice-fang coatl"
+  - "delighted halfling"
+  - "teferi, time raveler"
+  - "Uro, Titan of Nature's Wrath"
+  - "Atraxa, Grand Unifier"
+min_signatures: 3
+
+anti_signatures:
+  - "Elvish Visionary"
+  - "Gaea's Cradle"

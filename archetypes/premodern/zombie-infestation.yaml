@@ -1,0 +1,16 @@
+name: "Zombie Infestation"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "zombie infestation"
+
+signatures:
+  - "nether spirit"
+  - "contamination"
+  - "innocent blood"
+  - "rishadan port"
+  - "skeletal scrying"
+  - "powder keg"
+  - "duress"
+min_signatures: 3

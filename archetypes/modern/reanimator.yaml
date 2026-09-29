@@ -1,0 +1,17 @@
+name: "Reanimator"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - card: "Goryo's Vengeance"
+    min: 3
+
+signatures:
+  - "psychic frog"
+  - "griselbrand"
+  - "Faithful Mending"
+  - "sheoldred, the apocalypse"
+  - "Atraxa, Grand Unifier"
+  - "ulamog the defiler"
+  - "tainted indulgence"
+min_signatures: 2

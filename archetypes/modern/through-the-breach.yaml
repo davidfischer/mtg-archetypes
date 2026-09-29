@@ -1,0 +1,16 @@
+name: "Through The Breach"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "through the breach"
+    min: 3
+
+signatures:
+  - "ulamog the defiler"
+  - "kozileks return"
+  - "ugins labyrinth"
+  - "Emrakul, the Aeons Torn"
+  - "Yggdrasil, Rebirth Engine"
+  - "Nulldrifter"
+min_signatures: 2

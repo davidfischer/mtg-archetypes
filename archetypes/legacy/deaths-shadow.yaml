@@ -1,0 +1,15 @@
+name: "Death's Shadow"
+category: "Tempo"
+priority: 95
+
+mandatory:
+  - "death's shadow"
+
+signatures:
+  - "street wraith"
+  - "snuff out"
+  - "dismember"
+  - "daze"
+  - "thoughtseize"
+  - "watery grave"
+min_signatures: 2

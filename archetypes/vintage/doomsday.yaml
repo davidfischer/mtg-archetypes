@@ -1,0 +1,14 @@
+name: "Doomsday"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "doomsday"
+
+signatures:
+  - "thassa's oracle"
+  - "dark ritual"
+  - "gush"
+  - "demonic consultation"
+  - "time walk"
+min_signatures: 2

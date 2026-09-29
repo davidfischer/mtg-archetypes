@@ -1,0 +1,15 @@
+name: "Hollow One"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "Hollow One"
+
+signatures:
+  - "vengevine"
+  - "blazing rootwalla"
+  - "burning inquiry"
+  - "Faithless Looting"
+  - "Detective's Phoenix"
+  - "Marauding Mako"
+min_signatures: 2

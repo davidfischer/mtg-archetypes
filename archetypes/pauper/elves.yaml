@@ -1,0 +1,14 @@
+name: "Elves"
+category: "Aggro"
+priority: 80
+
+signatures:
+  - "Priest of Titania"
+  - "Fyndhorn Elves"
+  - "Elvish Mystic"
+  - "Llanowar Elves"
+  - "Quirion Ranger"
+  - "Lead the Stampede"
+  - "Avenging Hunter"
+  - "Timberwatch Elf"
+min_signatures: 4

@@ -1,0 +1,14 @@
+name: "Wildfire"
+category: "Midrange"
+priority: 95
+
+mandatory:
+  - "Cleansing Wildfire"
+
+signatures:
+  - "Krark-Clan Shaman"
+  - "Gixian Infiltrator"
+  - "Fanatical Offering"
+  - "Writhing Chrysalis"
+  - "Ichor Wellspring"
+min_signatures: 2

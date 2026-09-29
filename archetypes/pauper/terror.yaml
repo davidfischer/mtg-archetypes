@@ -1,0 +1,18 @@
+name: "Terror"
+category: "Midrange"
+priority: 95
+
+mandatory:
+  - "tolarian terror"
+
+signatures:
+  - "cryptic serpent"
+  - "thought scour"
+  - "mental note"
+  - "counterspell"
+  - "lorien revealed"
+  - "Delver of Secrets"
+  - "Extract a Confession"
+  - "Thorn of the Black Rose"
+  - "Snuff Out"
+min_signatures: 3

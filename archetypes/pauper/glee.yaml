@@ -1,0 +1,14 @@
+name: "Glee"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "Sadistic Glee"
+  - "Basking Broodscale"
+
+signatures:
+  - "duress"
+  - "Nadier's Nightblade"
+  - "snakeskin veil"
+  - "Tamiyo's Safekeeping"
+min_signatures: 1

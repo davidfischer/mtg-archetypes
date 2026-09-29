@@ -1,0 +1,17 @@
+name: "Aluren"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "aluren"
+    min: 3
+
+signatures:
+  - "cavern harpy"
+  - "havenwood battleground"
+  - "hickory woodlot"
+  - "soul warden"
+  - "Raven Familiar"
+  - "Man-o'-War"
+  - "Mesmeric Fiend"
+min_signatures: 3

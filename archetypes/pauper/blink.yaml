@@ -1,0 +1,17 @@
+name: "Blink"
+category: "Control"
+priority: 95
+
+mandatory:
+  - card: "Ephemerate"
+    min: 2
+
+signatures:
+  - "Archaeomancer"
+  - "Augur of Bolas"
+  - "Mulldrifter"
+  - "Fallaji Archaeologist"
+  - "Ghostly Flicker"
+  - "God-Pharaoh's Faithful"
+  - "Sea Gate Oracle"
+min_signatures: 2

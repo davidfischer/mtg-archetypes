@@ -1,0 +1,16 @@
+name: "Loam Pox"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "smallpox"
+  - "life from the loam"
+
+signatures:
+  - "eumidian hatchery"
+  - "urza's saga"
+  - "mox diamond"
+  - "witherbloom command"
+  - "wasteland"
+  - "boseiju, who endures"
+min_signatures: 2

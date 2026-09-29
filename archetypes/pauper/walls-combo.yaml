@@ -1,0 +1,14 @@
+name: "Walls Combo"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "axebane guardian"
+
+signatures:
+  - "wall of roots"
+  - "jaspera sentinel"
+  - "Overgrown Battlement"
+  - "saruli caretaker"
+  - "Shield-Wall Sentinel"
+min_signatures: 3

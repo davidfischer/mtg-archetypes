@@ -1,0 +1,16 @@
+name: "Twiddle Storm"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "lotus field"
+
+signatures:
+  - "hidden strings"
+  - "vizier of tumbling sands"
+  - "wish"
+  - "deserted temple"
+  - "expedition map"
+  - "dreams grip"
+  - "Twiddle"
+min_signatures: 3

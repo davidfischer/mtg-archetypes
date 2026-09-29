@@ -1,0 +1,15 @@
+name: "Riddler"
+category: "Combo"
+priority: 100
+
+mandatory:
+  - "riddlesmith"
+
+signatures:
+  - "gamble"
+  - "lion's eye diamond"
+  - "echo of eons"
+  - "urzas saga"
+  - "ancient tomb"
+  - "Ovalchase Daredevil"
+min_signatures: 3

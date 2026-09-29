@@ -1,0 +1,16 @@
+name: "Sam Combo"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "samwise gamgee"
+    min: 2
+
+signatures:
+  - "cauldron familiar"
+  - "young wolf"
+  - "carrion feeder"
+  - "Birthing Ritual"
+  - "Goblin Bombardment"
+  - "chord of calling"
+min_signatures: 3

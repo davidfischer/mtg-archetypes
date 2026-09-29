@@ -1,0 +1,21 @@
+name: "UW Midrange"
+category: "Midrange"
+priority: 60
+
+mandatory:
+  - "swords to plowshares"
+
+signatures:
+  - "force of will"
+  - "phelia, exuberant shepherd"
+  - "quantum riddler"
+min_signatures: 2
+
+anti_signatures:
+  - "daze"
+  - "aether vial"
+  - "stoneforge mystic"
+  - "orcish bowmasters"
+  - "up the beanstalk"
+  - "underground sea"
+  - "tropical island"

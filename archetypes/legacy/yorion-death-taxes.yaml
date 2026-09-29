@@ -1,0 +1,19 @@
+name: "Yorion Death & Taxes"
+category: "Control"
+priority: 88
+
+mandatory:
+  - "yorion, sky nomad"
+  - "recruiter of the guard"
+
+signatures:
+  - "aether vial"
+  - "stoneforge mystic"
+  - "solitude"
+  - "karakas"
+  - "swords to plowshares"
+min_signatures: 3
+
+anti_signatures:
+  - "force of will"
+  - "brainstorm"

@@ -1,0 +1,13 @@
+name: "White Weenie"
+category: "Aggro"
+priority: 80
+
+signatures:
+  - "exalted angel"
+  - "savannah lions"
+  - "whipcorder"
+  - "mother of runes"
+  - "silver knight"
+  - "ramosian sergeant"
+  - "Soltari Priest"
+min_signatures: 4

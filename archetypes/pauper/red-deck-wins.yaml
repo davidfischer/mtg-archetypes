@@ -1,0 +1,19 @@
+name: "Red Deck Wins"
+category: "Aggro"
+priority: 95
+
+signatures:
+  - "Lightning Bolt"
+  - "Goblin Bushwhacker"
+  - "Goblin Tomb Raider"
+  - "Clockwork Percussionist"
+  - "Galvanic Blast"
+  - "Rally at the Hornburg"
+  - "Great Furnace"
+  - "Inventor's Axe"
+  - "Experimental Synthesizer"
+  - "Chain Lightning"
+min_signatures: 4
+
+anti_signatures:
+  - "Faithless Looting"

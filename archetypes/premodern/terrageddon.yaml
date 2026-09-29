@@ -1,0 +1,13 @@
+name: "Terrageddon"
+category: "Aggro"
+priority: 95
+
+mandatory:
+  - "terravore"
+  - "armageddon"
+
+signatures:
+  - "mox diamond"
+  - "Weathered Wayfarer"
+  - "Sylvan Library"
+min_signatures: 1

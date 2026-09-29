@@ -1,0 +1,16 @@
+name: "Spellseeker"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - "spellseeker"
+  - "ephemerate"
+
+signatures:
+  - "orims chant"
+  - "Eternal Witness"
+  - "Swords to Plowshares"
+  - "Phelia, Exuberant Shepherd"
+  - "Teferi, Time Raveler"
+  - "Uro, Titan of Nature's Wrath"
+min_signatures: 3

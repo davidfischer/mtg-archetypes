@@ -1,0 +1,17 @@
+name: "Broodscale Combo"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "Basking Broodscale"
+    min: 3
+  - "Blade of the Bloodchief"
+
+signatures:
+  - "Urza's Saga"
+  - "Devourer of Destiny"
+  - "Glaring Fleshraker"
+  - "Malevolent Rumble"
+  - "Sowing Mycospawn"
+  - "Kozilek's Command"
+min_signatures: 2

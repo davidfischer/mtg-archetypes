@@ -1,0 +1,21 @@
+name: "Mystic Forge"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "mystic forge"
+
+signatures:
+  - "grim monolith"
+  - "manifold key"
+  - "glaring fleshraker"
+  - "urzas workshop"
+  - "basalt monolith"
+  - "karn the great creator"
+  - "the one ring"
+  - "vexing bauble"
+min_signatures: 3
+
+anti_signatures:
+  - "paradoxical outcome"
+  - "planar nexus"

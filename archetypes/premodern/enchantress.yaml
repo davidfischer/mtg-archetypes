@@ -1,0 +1,17 @@
+name: "Enchantress"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "argothian enchantress"
+    min: 2
+
+signatures:
+  - "serra's sanctum"
+  - "Solitary Confinement"
+  - "wild growth"
+  - "enchantresss presence"
+  - "Mirri's Guile"
+  - "Sterling Grove"
+  - "parallax wave"
+min_signatures: 3

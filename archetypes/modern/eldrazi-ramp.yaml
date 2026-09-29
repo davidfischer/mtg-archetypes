@@ -1,0 +1,18 @@
+name: "Eldrazi Ramp"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - "Sowing Mycospawn"
+
+signatures:
+  - "Sire of Seven Deaths"
+  - "Kozilek's Command"
+  - "Emrakul, the Promised End"
+  - "Malevolent Rumble"
+  - "Ugin's Labyrinth"
+  - "Icetill Explorer"
+min_signatures: 3
+
+anti_signatures:
+  - "Blade of the Bloodchief"

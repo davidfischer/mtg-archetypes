@@ -1,0 +1,16 @@
+name: "Merfolk"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "master of the pearl trident"
+
+signatures:
+  - "tide shaper"
+  - "vodalian hexcatcher"
+  - "svyelun of sea and sky"
+  - "merfolk trickster"
+  - "tishanas tidebinder"
+  - "harbinger of the seas"
+  - "flare of denial"
+min_signatures: 3

@@ -1,0 +1,15 @@
+name: "Bogles"
+category: "Aggro"
+priority: 95
+
+mandatory:
+  - "slippery bogle"
+
+signatures:
+  - "gladecover scout"
+  - "Silhana Ledgewalker"
+  - "ethereal armor"
+  - "ancestral mask"
+  - "armadillo cloak"
+  - "abundant growth"
+min_signatures: 3

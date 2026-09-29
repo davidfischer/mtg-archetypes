@@ -1,0 +1,14 @@
+name: "Domain Zoo"
+category: "Aggro"
+priority: 90
+
+signatures:
+  - "scion of draco"
+  - "territorial kavu"
+  - "nishoba brawler"
+  - "tribal flames"
+  - "leyline binding"
+  - "leyline of the guildpact"
+  - "wild nacatl"
+  - "Nishoba Brawler"
+min_signatures: 4

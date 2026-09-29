@@ -1,0 +1,17 @@
+name: "Ruby Storm"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "ruby medallion"
+
+signatures:
+  - "ral, monsoon mage"
+  - "desperate ritual"
+  - "pyretic ritual"
+  - "grapeshot"
+  - "wish"
+  - "Wrenn's Resolve"
+  - "Manamorphose"
+  - "Past in Flames"
+min_signatures: 3

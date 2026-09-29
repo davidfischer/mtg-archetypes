@@ -1,0 +1,16 @@
+name: "Blue Storm"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "sapphire medallion"
+
+signatures:
+  - "helm of awakening"
+  - "snap"
+  - "cloud of faeries"
+  - "cunning wish"
+  - "teferis isle"
+  - "Meditate"
+  - "Brain Freeze"
+min_signatures: 3

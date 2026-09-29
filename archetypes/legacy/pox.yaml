@@ -1,0 +1,17 @@
+name: "Pox"
+category: "Control"
+priority: 85
+
+mandatory:
+  - "smallpox"
+
+signatures:
+  - "eumidian hatchery"
+  - "urza's saga"
+  - "mox diamond"
+  - "liliana of the veil"
+  - "wasteland"
+min_signatures: 2
+
+anti_signatures:
+  - "life from the loam"

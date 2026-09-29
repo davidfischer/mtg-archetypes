@@ -1,0 +1,15 @@
+name: "Ruby Storm"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "ruby medallion"
+
+signatures:
+  - "birgi, god of storytelling"
+  - "burning wish"
+  - "bonus round"
+  - "gamble"
+  - "ral, monsoon mage"
+  - "seething song"
+min_signatures: 2

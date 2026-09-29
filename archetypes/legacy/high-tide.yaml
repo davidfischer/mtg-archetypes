@@ -1,0 +1,16 @@
+name: "High Tide"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "high tide"
+
+signatures:
+  - "time spiral"
+  - "snap"
+  - "cloud of faeries"
+  - "minds desire"
+  - "turnabout"
+  - "merchant scroll"
+  - "cunning wish"
+min_signatures: 3

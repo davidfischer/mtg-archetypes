@@ -1,0 +1,14 @@
+name: "Lurrus PO"
+category: "Combo"
+priority: 100
+
+mandatory:
+  - "Lurrus of the Dream-Den"
+  - "paradoxical outcome"
+
+signatures:
+  - "Mana Crypt"
+  - "Thundertrap Trainer"
+  - "Flame of Anor"
+  - "Tolarian Academy"
+min_signatures: 2

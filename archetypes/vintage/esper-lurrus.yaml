@@ -1,0 +1,13 @@
+name: "Esper Lurrus"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "Lurrus of the Dream-Den"
+
+signatures:
+  - "Swords to Plowshares"
+  - "Psychic Frog"
+  - "Tundra"
+  - "Underground Sea"
+min_signatures: 3

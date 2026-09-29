@@ -1,0 +1,20 @@
+name: "Temur Delver"
+category: "Tempo"
+priority: 100
+
+mandatory:
+  - "delver of secrets"
+
+signatures:
+  - "daze"
+  - "tarmogoyf"
+  - "questing druid"
+  - "lightning bolt"
+  - "force of will"
+  - "tropical island"
+min_signatures: 2
+
+anti_signatures:
+  - "orcish bowmasters"
+  - "psychic frog"
+  - "underground sea"

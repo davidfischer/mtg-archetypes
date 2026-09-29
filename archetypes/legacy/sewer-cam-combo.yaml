@@ -1,0 +1,18 @@
+name: "Sewer Cam Combo"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "sewer-veillance cam"
+  - "goblin welder"
+
+signatures:
+  - "goblin engineer"
+  - "agathas soul cauldron"
+  - "great furnace"
+  - "emry, lurker of the loch"
+  - "legion extruder"
+min_signatures: 3
+
+anti_signatures:
+  - "painter's servant"

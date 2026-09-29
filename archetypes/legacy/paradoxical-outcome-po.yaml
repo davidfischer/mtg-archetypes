@@ -1,0 +1,15 @@
+name: "Paradoxical Outcome (PO)"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "paradoxical outcome"
+
+signatures:
+  - "glaring fleshraker"
+  - "grim monolith"
+  - "manifold key"
+  - "mystic forge"
+  - "voltaic key"
+  - "kozileks command"
+min_signatures: 3

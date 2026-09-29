@@ -1,0 +1,20 @@
+name: "Turbo Depths"
+category: "Combo"
+priority: 85
+
+mandatory:
+  - "dark depths"
+  - "thespian's stage"
+  - "vampire hexmage"
+
+signatures:
+  - "lotus petal"
+  - "thoughtseize"
+  - "Elvish Spirit Guide"
+  - "Crop Rotation"
+  - "Sylvan Scrying"
+min_signatures: 2
+
+anti_signatures:
+  - "knight of the reliquary"
+  - "exploration"

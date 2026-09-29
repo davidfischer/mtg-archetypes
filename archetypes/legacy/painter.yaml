@@ -1,0 +1,17 @@
+name: "Painter"
+category: "Combo"
+priority: 85
+
+mandatory:
+  - "painter's servant"
+
+signatures:
+  - "grindstone"
+  - "goblin welder"
+  - "goblin engineer"
+  - "chaos defiler"
+  - "fable of the mirror-breaker"
+  - "pyroblast"
+  - "fury"
+  - "urza's saga"
+min_signatures: 3

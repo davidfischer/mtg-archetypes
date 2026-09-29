@@ -1,0 +1,13 @@
+name: "Initiative"
+category: "Stompy"
+priority: 90
+
+signatures:
+  - "caves of chaos adventurer"
+  - "undermountain adventurer"
+  - "seasoned dungeoneer"
+  - "passageway seer"
+  - "ravenloft adventurer"
+  - "ancient tomb"
+  - "city of traitors"
+min_signatures: 3

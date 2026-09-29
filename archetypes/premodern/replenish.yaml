@@ -1,0 +1,21 @@
+name: "Replenish"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - card: "Replenish"
+    min: 2
+
+signatures:
+  - "intuition"
+  - "parallax wave"
+  - "seal of cleansing"
+  - "Opalescence"
+  - "Parallax Tide"
+  - "Frantic Search"
+  - "Attunement"
+  - "Decree of Silence"
+min_signatures: 3
+
+anti_signatures:
+  - "argothian enchantress"

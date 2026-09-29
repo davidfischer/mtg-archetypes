@@ -1,0 +1,16 @@
+name: "Infect"
+category: "Tempo"
+priority: 90
+
+mandatory:
+  - "blighted agent"
+
+signatures:
+  - "berserk"
+  - "pendelhaven"
+  - "vines of vastwood"
+  - "mutagenic growth"
+  - "scale up"
+  - "inkmoth nexus"
+  - "glistener elf"
+min_signatures: 3

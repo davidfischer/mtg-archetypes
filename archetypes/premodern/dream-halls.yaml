@@ -1,0 +1,16 @@
+name: "Dream Halls"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "Dream Halls"
+    min: 3
+
+signatures:
+  - "concentrate"
+  - "opportunity"
+  - "meditate"
+  - "time stretch"
+  - "rush of knowledge"
+  - "svyelunite temple"
+min_signatures: 2

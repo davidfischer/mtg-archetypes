@@ -1,0 +1,21 @@
+name: "Mono-Black Aggro"
+category: "Aggro"
+priority: 50
+
+mandatory:
+  - "ancient tomb"
+
+signatures:
+  - "Sheoldred, the Apocalypse"
+  - "barrowgoyf"
+  - "the one ring"
+  - "Chalice of the Void"
+  - "City of Traitors"
+  - "Rotting Regisaur"
+  - "dark ritual"
+min_signatures: 4
+
+anti_signatures:
+  - "Helm of Obedience"
+  - "Tendrils of Agony"
+  - "Doomsday"

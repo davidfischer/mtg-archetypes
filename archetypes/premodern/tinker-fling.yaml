@@ -1,0 +1,15 @@
+name: "Tinker Fling"
+category: "Combo"
+priority: 100
+
+mandatory:
+  - "tinker"
+  - "fling"
+
+signatures:
+  - "ancient tomb"
+  - "altar of dementia"
+  - "phyrexian devourer"
+  - "gaea's blessing"
+  - "defense grid"
+min_signatures: 2

@@ -1,0 +1,14 @@
+name: "Ponza"
+category: "Midrange"
+priority: 92
+
+mandatory:
+  - "Mwonvuli Acid-Moss"
+
+signatures:
+  - "Thermokarst"
+  - "Boarding Party"
+  - "Annoyed Altisaur"
+  - "Writhing Chrysalis"
+  - "Eldrazi Repurposer"
+min_signatures: 3

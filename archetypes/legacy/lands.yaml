@@ -1,0 +1,20 @@
+name: "Lands"
+category: "Control"
+priority: 85
+
+mandatory:
+  - "exploration"
+  - "life from the loam"
+
+signatures:
+  - "dark depths"
+  - "thespian's stage"
+  - "crop rotation"
+  - "urza's saga"
+  - "mox diamond"
+min_signatures: 2
+
+anti_signatures:
+  - "knight of the reliquary"
+  - "vampire hexmage"
+  - "smallpox"

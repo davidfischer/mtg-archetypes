@@ -1,0 +1,16 @@
+name: "Stasis"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "stasis"
+    min: 2
+
+signatures:
+  - "black vise"
+  - "root maze"
+  - "forsaken city"
+  - "enchantresss presence"
+  - "daze"
+  - "gush"
+min_signatures: 2

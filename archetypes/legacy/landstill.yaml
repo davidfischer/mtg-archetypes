@@ -1,0 +1,14 @@
+name: "Landstill"
+category: "Control"
+priority: 100
+
+mandatory:
+  - "standstill"
+
+signatures:
+  - "supreme verdict"
+  - "snapcaster mage"
+  - "timeless dragon"
+  - "urza's saga"
+  - "Shark Typhoon"
+min_signatures: 2

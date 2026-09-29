@@ -1,0 +1,18 @@
+name: "Yawgmoth"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - card: "yawgmoth, thran physician"
+    min: 2
+
+signatures:
+  - "chord of calling"
+  - "young wolf"
+  - "strangleroot geist"
+  - "orcish bowmasters"
+  - "delighted halfling"
+  - "Agatha's Soul Cauldron"
+  - "Dredger's Insight"
+  - "Green Sun's Zenith"
+min_signatures: 3

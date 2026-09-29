@@ -1,0 +1,16 @@
+name: "Stiflenought"
+category: "Tempo"
+priority: 90
+
+mandatory:
+  - "phyrexian dreadnought"
+
+signatures:
+  - "slip out the back"
+  - "dress down"
+  - "stifle"
+  - "torpor orb"
+  - "nulldrifter"
+  - "curie, emergent intelligence"
+  - "Doorkeeper Thrull"
+min_signatures: 3

@@ -1,0 +1,15 @@
+name: "Dimir Ninjas"
+category: "Tempo"
+priority: 95
+
+mandatory:
+  - "yuriko, the tiger's shadow"
+
+signatures:
+  - "ingenious infiltrator"
+  - "retrofitter foundry"
+  - "changeling outcast"
+  - "satoru, the infiltrator"
+  - "moon-circuit hacker"
+  - "ornithopter"
+min_signatures: 2

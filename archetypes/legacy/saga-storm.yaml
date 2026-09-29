@@ -1,0 +1,16 @@
+name: "Saga Storm"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "urza's saga"
+  - "tendrils of agony"
+
+signatures:
+  - "Beseech the Mirror"
+  - "Gaea's Will"
+  - "Wishclaw Talisman"
+  - "lotus petal"
+  - "Vault of Whispers"
+  - "Lion's Eye Diamond"
+min_signatures: 3

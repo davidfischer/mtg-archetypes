@@ -1,0 +1,15 @@
+name: "Scam"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "grief"
+  - "not dead after all"
+
+signatures:
+  - "orcish bowmasters"
+  - "dauthi voidwalker"
+  - "thoughtseize"
+  - "Sheoldred, the Apocalypse"
+  - "Malakir Rebirth"
+min_signatures: 3

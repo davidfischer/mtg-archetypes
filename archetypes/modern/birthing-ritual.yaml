@@ -1,0 +1,15 @@
+name: "Birthing Ritual"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - "Birthing Ritual"
+
+signatures:
+  - "shardless agent"
+  - "fblthp the lost"
+  - "endurance"
+  - "ice-fang coatl"
+  - "coiling oracle"
+  - "Abhorrent Oculus"
+min_signatures: 3

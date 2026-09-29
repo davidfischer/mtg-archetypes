@@ -1,0 +1,23 @@
+name: "Helm Combo"
+category: "Combo"
+priority: 100
+
+mandatory:
+  - card: "Helm of Obedience"
+    min: 2
+
+signatures:
+  - "Sheoldred, the Apocalypse"
+  - "Leyline of the Void"
+  - "Dauthi Voidwalker"
+  - "Beseech the Mirror"
+  - "Karn, the Great Creator"
+  - "Rest in Peace"
+  - "Energy Field"
+  - "Enlightened Tutor"
+  - "Narset, Parter of Veils"
+min_signatures: 2
+
+anti_signatures:
+  - "Argothian Enchantress"
+  - "Tendrils of Agony"

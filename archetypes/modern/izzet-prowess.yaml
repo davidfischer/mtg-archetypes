@@ -1,0 +1,17 @@
+name: "Izzet Prowess"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "Slickshot Show-Off"
+
+signatures:
+  - "Monastery Swiftspear"
+  - "dragon's rage channeler"
+  - "lightning bolt"
+  - "Cori-Steel Cutter"
+  - "mishra's bauble"
+min_signatures: 3
+
+anti_signatures:
+  - "psychic frog"

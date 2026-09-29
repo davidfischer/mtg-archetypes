@@ -1,0 +1,19 @@
+name: "Omni-Tell"
+category: "Combo"
+priority: 96
+
+mandatory:
+  - "show and tell"
+  - "omniscience"
+
+signatures:
+  - "atraxa, grand unifier"
+  - "emrakul, the aeons torn"
+  - "acererak, the archlich"
+  - "cunning wish"
+  - "intuition"
+  - "stock up"
+min_signatures: 2
+
+anti_signatures:
+  - "sneak attack"

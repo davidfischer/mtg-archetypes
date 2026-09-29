@@ -1,0 +1,16 @@
+name: "Creative Technique"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "creative technique"
+
+signatures:
+  - "apex devastator"
+  - "maelstrom wanderer"
+  - "throes of chaos"
+  - "mossfire valley"
+  - "dwarven ruins"
+  - "tibalts trickery"
+  - "violent outburst"
+min_signatures: 3

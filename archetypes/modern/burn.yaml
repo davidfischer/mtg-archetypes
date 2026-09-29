@@ -1,0 +1,20 @@
+name: "Burn"
+category: "Aggro"
+priority: 85
+
+mandatory:
+  - "lightning bolt"
+
+signatures:
+  - "lava spike"
+  - "rift bolt"
+  - "monastery swiftspear"
+  - "eidolon of the great revel"
+  - "boros charm"
+  - "searing blaze"
+  - "Skewer the Critics"
+  - "Light Up the Stage"
+min_signatures: 3
+
+anti_signatures:
+  - "guide of souls"

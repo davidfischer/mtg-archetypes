@@ -1,0 +1,12 @@
+name: "Deadguy Ale"
+category: "Midrange"
+priority: 90
+
+signatures:
+  - "hypnotic specter"
+  - "hymn to tourach"
+  - "vindicate"
+  - "gerrard's verdict"
+  - "swords to plowshares"
+  - "caves of koilos"
+min_signatures: 3

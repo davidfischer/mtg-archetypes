@@ -1,0 +1,18 @@
+name: "Jund"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "Stomping Ground"
+  - "Blood Crypt"
+  - "Overgrown Tomb"
+
+signatures:
+  - "wrenn and six"
+  - "six"
+  - "tarmogoyf"
+  - "ragavan nimble pilferer"
+  - "orcish bowmasters"
+  - "inquisition of kozilek"
+  - "nethergoyf"
+min_signatures: 3

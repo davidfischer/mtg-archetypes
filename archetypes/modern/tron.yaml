@@ -1,0 +1,17 @@
+name: "Tron"
+category: "Ramp"
+priority: 90
+
+mandatory:
+  - "urza's tower"
+  - "urza's power plant"
+  - "urza's mine"
+
+signatures:
+  - "karn the great creator"
+  - "karn liberated"
+  - "Ugin, Eye of the Storms"
+  - "expedition map"
+  - "Sowing Mycospawn"
+  - "ancient stirrings"
+min_signatures: 2

@@ -1,0 +1,14 @@
+name: "Nadu"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "nadu winged wisdom"
+
+signatures:
+  - "wall of roots"
+  - "summoners pact"
+  - "shifting woodland"
+  - "springheart nantuko"
+  - "Shuko"
+min_signatures: 2

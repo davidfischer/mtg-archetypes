@@ -1,0 +1,15 @@
+name: "Garden"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - "Khalni Garden"
+
+signatures:
+  - "Eviscerator's Insight"
+  - "Fanatical Offering"
+  - "Writhing Chrysalis"
+  - "Ichor Wellspring"
+  - "Troll of Khazad-dûm"
+  - "Defile"
+min_signatures: 2

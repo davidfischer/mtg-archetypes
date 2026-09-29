@@ -1,0 +1,15 @@
+name: "Cloudpost"
+category: "Combo"
+priority: 85
+
+mandatory:
+  - "cloudpost"
+
+signatures:
+  - "glimmerpost"
+  - "primeval titan"
+  - "expedition map"
+  - "planar nexus"
+  - "Stock Up"
+  - "candelabra of tawnos"
+min_signatures: 2

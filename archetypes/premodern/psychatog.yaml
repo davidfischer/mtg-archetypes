@@ -1,0 +1,17 @@
+name: "Psychatog"
+category: "Control"
+priority: 95
+
+mandatory:
+  - card: "psychatog"
+    min: 2
+
+signatures:
+  - "fact or fiction"
+  - "accumulated knowledge"
+  - "deep analysis"
+  - "gush"
+  - "Sickening Dreams"
+  - "Quirion Dryad"
+  - "peek"
+min_signatures: 2

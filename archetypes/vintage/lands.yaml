@@ -1,0 +1,17 @@
+name: "Lands"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "crop rotation"
+  - "fastbond"
+
+signatures:
+  - "crucible of worlds"
+  - "perennial behemoth"
+  - "exploration"
+  - "bazaar of baghdad"
+  - "mishras workshop"
+  - "glacial chasm"
+  - "life from the loam"
+min_signatures: 3

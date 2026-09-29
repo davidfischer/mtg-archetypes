@@ -1,0 +1,16 @@
+name: "Belcher"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "goblin charbelcher"
+
+signatures:
+  - "tinder wall"
+  - "rite of flame"
+  - "lotus petal"
+  - "land grant"
+min_signatures: 2
+
+anti_signatures:
+  - "balustrade spy"

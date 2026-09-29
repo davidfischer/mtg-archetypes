@@ -1,0 +1,19 @@
+name: "Grixis Control"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "Lightning Bolt"
+  - "baleful strix"
+
+signatures:
+  - "orcish bowmasters"
+  - "Kolaghan's Command"
+  - "Nimble Obstructionist"
+  - "Cling to Dust"
+  - "Brazen Borrower"
+min_signatures: 2
+
+anti_signatures:
+  - "assassins trophy"
+  - "daze"

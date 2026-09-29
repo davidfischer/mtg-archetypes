@@ -1,0 +1,17 @@
+name: "Survival"
+category: "Midrange"
+priority: 95
+
+mandatory:
+  - card: "survival of the fittest"
+    min: 3
+
+signatures:
+  - "Squee, Goblin Nabob"
+  - "Recurring Nightmare"
+  - "Deranged Hermit"
+  - "Gaea's Cradle"
+  - "Wall of Blossoms"
+  - "Wall of Roots"
+  - "Birds of Paradise"
+min_signatures: 2

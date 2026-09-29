@@ -1,0 +1,15 @@
+name: "Lantern Control"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "lantern of insight"
+
+signatures:
+  - "the mycosynth gardens"
+  - "the underworld cookbook"
+  - "codex shredder"
+  - "Whir of Invention"
+  - "Ensnaring Bridge"
+  - "Pyxis of Pandemonium"
+min_signatures: 2

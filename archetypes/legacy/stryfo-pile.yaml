@@ -1,0 +1,15 @@
+name: "Stryfo Pile"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "dack fayden"
+  - "assassins trophy"
+
+signatures:
+  - "fable of the mirror-breaker"
+  - "dress down"
+  - "punishing fire"
+  - "grove of the burnwillows"
+  - "force of will"
+min_signatures: 3

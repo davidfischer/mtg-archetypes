@@ -1,0 +1,12 @@
+name: "Poison Storm"
+category: "Combo"
+priority: 90
+
+signatures:
+  - "Prologue to Phyresis"
+  - "Infectious Inquiry"
+  - "Contentious Plan"
+  - "Vivisurgeon's Insight"
+  - "Steady Progress"
+  - "Thirsting Roots"
+min_signatures: 3

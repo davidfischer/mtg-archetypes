@@ -1,0 +1,25 @@
+name: "UW / Jeskai Control"
+category: "Control"
+priority: 75
+
+mandatory:
+  - "Force of Will"
+  - "Swords to Plowshares"
+
+signatures:
+  - "Forth Eorlingas!"
+  - "Back to Basics"
+  - "Jace the Mind Sculptor"
+  - "Teferi, Time Raveler"
+  - "Prismatic Ending"
+  - "Narset, Parter of Veils"
+min_signatures: 3
+
+anti_signatures:
+  - "Daze"
+  - "nadu, winged wisdom"
+  - "tropical island"
+  - "standstill"
+  - "up the beanstalk"
+  - "stoneforge mystic"
+  - "underground sea"

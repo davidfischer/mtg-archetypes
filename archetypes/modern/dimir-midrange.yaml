@@ -1,0 +1,19 @@
+name: "Dimir Midrange"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - "Psychic Frog"
+  - "Orcish Bowmasters"
+
+signatures:
+  - "Kaito, Bane of Nightmares"
+  - "Fatal Push"
+  - "Quantum Riddler"
+  - "Subtlety"
+  - "Tamiyo, Inquisitive Student"
+  - "Murktide Regent"
+min_signatures: 2
+
+anti_signatures:
+  - "Hallowed Fountain"

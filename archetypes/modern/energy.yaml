@@ -1,0 +1,20 @@
+name: "Energy"
+category: "Aggro"
+priority: 100
+
+mandatory:
+  - "ocelot pride"
+  - "guide of souls"
+
+signatures:
+  - "Ragavan, Nimble Pilferer"
+  - "ajani, nacatl pariah"
+  - "Goblin Bombardment"
+  - "galvanic discharge"
+  - "Orcish Bowmasters"
+  - "chthonian nightmare"
+  - "amped raptor"
+min_signatures: 2
+
+anti_signatures:
+  - "Hallowed Fountain"

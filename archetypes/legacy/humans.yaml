@@ -1,0 +1,20 @@
+name: "Humans"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "Cavern of Souls"
+
+signatures:
+  - "urdnan dromoka warrior"
+  - "voice of victory"
+  - "guide of souls"
+  - "haliya guided by light"
+  - "esper sentinel"
+  - "coppercoat vanguard"
+  - "Kitesail Freebooter"
+  - "thalias lieutenant"
+  - "Thalia, Guardian of Thraben"
+  - "Champion of the Parish"
+  - "Unclaimed Territory"
+min_signatures: 4

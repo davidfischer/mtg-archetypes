@@ -1,0 +1,14 @@
+name: "Cephalid Breakfast"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "cephalid illusionist"
+
+signatures:
+  - "nomads en-kor"
+  - "dread return"
+  - "thassa's oracle"
+  - "shuko"
+  - "nadu, winged wisdom"
+min_signatures: 2

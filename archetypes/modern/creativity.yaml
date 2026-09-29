@@ -1,0 +1,15 @@
+name: "Creativity"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "indomitable creativity"
+    min: 3
+
+signatures:
+  - "wrenn and six"
+  - "fable of the mirror-breaker"
+  - "dwarven mine"
+  - "Archon of Cruelty"
+  - "Teferi, Time Raveler"
+min_signatures: 2

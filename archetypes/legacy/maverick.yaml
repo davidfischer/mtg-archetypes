@@ -1,0 +1,18 @@
+name: "Maverick"
+category: "Midrange"
+priority: 85
+
+mandatory:
+  - "knight of the reliquary"
+
+signatures:
+  - "green sun's zenith"
+  - "dryad arbor"
+  - "wasteland"
+  - "swords to plowshares"
+  - "endurance"
+min_signatures: 2
+
+anti_signatures:
+  - "natural order"
+  - "force of will"

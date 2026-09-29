@@ -1,0 +1,16 @@
+name: "Amulet Titan"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - "amulet of vigor"
+  - "primeval titan"
+
+signatures:
+  - "summoner's pact"
+  - "urza's saga"
+  - "spelunking"
+  - "scapeshift"
+  - "Arboreal Grazer"
+  - "Hanweir Battlements"
+min_signatures: 2

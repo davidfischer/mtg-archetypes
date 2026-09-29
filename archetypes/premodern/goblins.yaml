@@ -1,0 +1,14 @@
+name: "Goblins"
+category: "Aggro"
+priority: 90
+
+signatures:
+  - "goblin lackey"
+  - "goblin ringleader"
+  - "goblin piledriver"
+  - "goblin matron"
+  - "mogg fanatic"
+  - "goblin warchief"
+  - "gempalm incinerator"
+  - "siege-gang commander"
+min_signatures: 3

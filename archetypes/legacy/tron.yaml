@@ -1,0 +1,17 @@
+name: "Tron"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "urza's tower"
+
+signatures:
+  - "kozileks command"
+  - "karn the great creator"
+  - "planar nexus"
+  - "urzas saga"
+  - "urza's mine"
+  - "ancient tomb"
+  - "grim monolith"
+  - "the one ring"
+min_signatures: 3

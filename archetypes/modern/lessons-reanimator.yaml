@@ -1,0 +1,16 @@
+name: "Lessons Reanimator"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "eyetwitch"
+    min: 3
+  - "Persist"
+
+signatures:
+  - "flare of malice"
+  - "bone shards"
+  - "archon of cruelty"
+  - "Emperor of Bones"
+  - "Stitcher's Supplier"
+min_signatures: 2

@@ -1,0 +1,14 @@
+name: "Storm"
+category: "Stompy"
+priority: 90
+
+signatures:
+  - "beseech the mirror"
+  - "necropotence"
+  - "dark petition"
+  - "dark ritual"
+  - "tendrils of agony"
+min_signatures: 3
+
+anti_signatures:
+  - "Underworld Breach"

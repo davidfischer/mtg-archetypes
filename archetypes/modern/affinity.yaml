@@ -1,0 +1,15 @@
+name: "Affinity"
+category: "Midrange"
+priority: 90
+
+signatures:
+  - "Pinnacle Emissary"
+  - "Mishra's Bauble"
+  - "Mox Opal"
+  - "Cori-Steel Cutter"
+  - "Metallic Rebuke"
+  - "Kappa Cannoneer"
+  - "Emry, Lurker of the Loch"
+  - "thoughtcast"
+  - "thought monitor"
+min_signatures: 4

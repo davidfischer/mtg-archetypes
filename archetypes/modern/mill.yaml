@@ -1,0 +1,17 @@
+name: "Mill"
+category: "Control"
+priority: 95
+
+mandatory:
+  - "archive trap"
+
+signatures:
+  - "glimpse the unthinkable"
+  - "tasha's hideous laughter"
+  - "hedron crab"
+  - "ruin crab"
+  - "fractured sanity"
+  - "visions of beyond"
+  - "Maddening Cacophony"
+  - "Jace, the Perfected Mind"
+min_signatures: 3

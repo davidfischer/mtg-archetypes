@@ -1,0 +1,14 @@
+name: "Goblin Matron"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "goblin matron"
+
+signatures:
+  - "skirk prospector"
+  - "fanatical offering"
+  - "deadly dispute"
+  - "Putrid Goblin"
+  - "Impulsive Pilferer"
+min_signatures: 2

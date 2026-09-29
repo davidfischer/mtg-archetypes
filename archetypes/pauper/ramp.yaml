@@ -1,0 +1,12 @@
+name: "Ramp"
+category: "Midrange"
+priority: 90
+
+signatures:
+  - "Arbor Elf"
+  - "Boarding Party"
+  - "Annoyed Altisaur"
+  - "Writhing Chrysalis"
+  - "Eldrazi Repurposer"
+  - "Avenging Hunter"
+min_signatures: 3

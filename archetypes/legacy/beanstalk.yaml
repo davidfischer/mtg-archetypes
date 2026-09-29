@@ -1,0 +1,19 @@
+name: "Beanstalk"
+category: "Control"
+priority: 85
+
+mandatory:
+  - "up the beanstalk"
+
+signatures:
+  - "leyline binding"
+  - "murktide regent"
+  - "murderous cut"
+  - "quantum riddler"
+  - "force of will"
+  - "triumph of saint katherine"
+min_signatures: 2
+
+anti_signatures:
+  - "leyline of the guildpact"
+  - "scion of draco"

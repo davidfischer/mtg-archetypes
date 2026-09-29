@@ -1,0 +1,19 @@
+name: "Soultrader"
+category: "Control"
+priority: 90
+
+mandatory:
+  - card: "warren soultrader"
+    min: 3
+
+signatures:
+  - "flare of malice"
+  - "orcish bowmasters"
+  - "gravecrawler"
+  - "marionette apprentice"
+  - "stitchers supplier"
+  - "spymasters vault"
+  - "chthonian nightmare"
+  - "Sephiroth, Fabled SOLDIER"
+  - "Birthing Ritual"
+min_signatures: 3

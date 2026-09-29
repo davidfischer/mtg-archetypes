@@ -1,0 +1,16 @@
+name: "Eldrazi"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "sowing mycospawn"
+  - "glaring fleshraker"
+
+signatures:
+  - "wastescape battlemage"
+  - "kozileks command"
+  - "thought-knot seer"
+  - "eye of ugin"
+  - "gaeas cradle"
+  - "eldrazi temple"
+min_signatures: 3

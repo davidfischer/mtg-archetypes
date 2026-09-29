@@ -1,0 +1,11 @@
+name: "Goblins"
+category: "Aggro"
+priority: 90
+
+signatures:
+  - "goblin lackey"
+  - "goblin ringleader"
+  - "muxus, goblin grandee"
+  - "rundvelt hordemaster"
+  - "goblin matron"
+min_signatures: 3

@@ -1,0 +1,15 @@
+name: "Red Prison"
+category: "Stompy"
+priority: 90
+
+mandatory:
+  - "simian spirit guide"
+  - "magus of the moon"
+
+signatures:
+  - "city of traitors"
+  - "blood moon"
+  - "fury"
+  - "broadside bombardiers"
+  - "null rod"
+min_signatures: 2

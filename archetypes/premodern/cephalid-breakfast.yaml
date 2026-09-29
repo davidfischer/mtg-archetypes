@@ -1,0 +1,13 @@
+name: "Cephalid Breakfast"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "cephalid illusionist"
+  - "nomads en-kor"
+
+signatures:
+  - "hermit druid"
+  - "worldly tutor"
+  - "eladamris call"
+min_signatures: 2

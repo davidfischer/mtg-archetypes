@@ -1,0 +1,17 @@
+name: "Infect"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "Glistener Elf"
+
+signatures:
+  - "Blight Mamba"
+  - "Ichorclaw Myr"
+  - "vines of vastwood"
+  - "mutagenic growth"
+  - "Seal of Strength"
+  - "Embiggen"
+  - "Might of Old Krosa"
+  - "Rancor"
+min_signatures: 3

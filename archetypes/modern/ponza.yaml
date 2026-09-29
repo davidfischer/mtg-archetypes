@@ -1,0 +1,14 @@
+name: "Ponza"
+category: "Control"
+priority: 90
+
+mandatory:
+  - "cleansing wildfire"
+
+signatures:
+  - "price of freedom"
+  - "Avengers Disassembled"
+  - "erode"
+  - "path to exile"
+  - "demolition field"
+min_signatures: 3

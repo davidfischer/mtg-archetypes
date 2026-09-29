@@ -1,0 +1,15 @@
+name: "Wheels"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "hullbreacher"
+
+signatures:
+  - "saprazzan skerry"
+  - "narset, parter of veils"
+  - "day's undoing"
+  - "sink into stupor // soporific springs"
+  - "lion's eye diamond"
+  - "echo of eons"
+min_signatures: 3

@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mtg-archetypes"
+version = "2026.9.0"
+description = "Magic: The Gathering deck archetype classifier"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+mtg-archetypes = "mtg_archetypes.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.9.0",
+]
+
+[tool.hatch.build.targets.wheel.force-include]
+"archetypes" = "mtg_archetypes/archetypes"
+
+# https://docs.astral.sh/ruff/configuration/
+[tool.ruff]
+extend-include = ["*.ipynb"]
+
+line-length = 100
+indent-width = 4
+target-version = "py311"
+
+[tool.ruff.lint]
+# Enable:
+#  Pyflakes (`F`): https://docs.astral.sh/ruff/rules/#pyflakes-f
+#  pycodestyle (`E`, `W`): https://docs.astral.sh/ruff/rules/#pycodestyle-e-w
+#  isort (`I`) import sorting: https://docs.astral.sh/ruff/rules/#isort-i
+#  flake8-bandit (`S`) security checks: https://docs.astral.sh/ruff/rules/#flake8-bandit-s
+select = ["E", "W", "F", "I", "S"]
+
+[tool.ruff.lint.isort]
+# https://docs.astral.sh/ruff/settings/#lintisort
+force-single-line = true
+case-sensitive = false
+lines-after-imports = 2
+
+# Ignore `F405` (import *) in config files
+[tool.ruff.lint.per-file-ignores]
+# Ignore line-too-long. Using ruff for formatting
+"*" = ["E501"]
+# Ignore security checks in tests
+"**/tests/*.py" = ["S"]

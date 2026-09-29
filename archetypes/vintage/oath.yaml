@@ -1,0 +1,19 @@
+name: "Oath"
+category: "Combo"
+priority: 95
+
+mandatory:
+  - card: "oath of druids"
+    min: 2
+
+signatures:
+  - "forbidden orchard"
+  - "atraxa, grand unifier"
+  - "show and tell"
+  - "flash"
+  - "gaea's blessing"
+min_signatures: 2
+
+anti_signatures:
+  - "doomsday"
+  - "paradoxical outcome"

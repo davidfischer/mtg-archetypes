@@ -1,0 +1,17 @@
+name: "Burn"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "lava spike"
+  - "rift bolt"
+
+signatures:
+  - "rift bolt"
+  - "fireblast"
+  - "price of progress"
+  - "eidolon of the great revel"
+  - "goblin guide"
+  - "skewer the critics"
+  - "exquisite firecraft"
+min_signatures: 3

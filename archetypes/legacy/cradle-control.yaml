@@ -1,0 +1,17 @@
+name: "Cradle Control"
+category: "Midrange"
+priority: 85
+
+mandatory:
+  - "gaea's cradle"
+
+signatures:
+  - "green sun's zenith"
+  - "dryad arbor"
+  - "wight of the reliquary"
+  - "natural order"
+min_signatures: 2
+
+anti_signatures:
+  - "knight of the reliquary"
+  - "veteran explorer"

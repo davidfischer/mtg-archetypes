@@ -1,0 +1,14 @@
+name: "Fog"
+category: "Combo"
+priority: 100
+
+mandatory:
+  - "Moment's Peace"
+
+signatures:
+  - "Tangle"
+  - "fog"
+  - "Growth Spiral"
+  - "Embrace the Paradox"
+  - "Stream of Thought"
+min_signatures: 2

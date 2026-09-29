@@ -1,0 +1,18 @@
+name: "Nadu"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "nadu winged wisdom"
+
+signatures:
+  - "nomads en-kor"
+  - "sylvan safekeeper"
+  - "shuko"
+  - "green sun's zenith"
+  - "plagon, lord of the beach"
+min_signatures: 2
+
+anti_signatures:
+  - "cephalid illusionist"
+  - "dread return"

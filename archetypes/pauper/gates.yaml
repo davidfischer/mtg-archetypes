@@ -1,0 +1,16 @@
+name: "Gates"
+category: "Midrange"
+priority: 95
+
+mandatory:
+  - "basilisk gate"
+
+signatures:
+  - "squadron hawk"
+  - "sacred cat"
+  - "Citadel Gate"
+  - "Cliffgate"
+  - "heap gate"
+  - "Manor Gate"
+  - "Sea Gate"
+min_signatures: 3

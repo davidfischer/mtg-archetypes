@@ -1,0 +1,16 @@
+name: "Cascade"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - "shardless agent"
+  - "crashing footfalls"
+
+signatures:
+  - "elvish spirit guide"
+  - "fire // ice"
+  - "violent outburst"
+  - "simian spirit guide"
+  - "wooded foothills"
+  - "brazen borrower"
+min_signatures: 3

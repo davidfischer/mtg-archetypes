@@ -1,0 +1,16 @@
+name: "Ill-Gotten Gains"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "ill-gotten gains"
+    min: 2
+
+signatures:
+  - "cabal ritual"
+  - "brain freeze"
+  - "cephalid coliseum"
+  - "deep analysis"
+  - "lion's eye diamond"
+  - "Infernal Contract"
+min_signatures: 3

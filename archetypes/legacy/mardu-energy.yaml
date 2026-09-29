@@ -1,0 +1,17 @@
+name: "Mardu Energy"
+category: "Aggro"
+priority: 88
+
+mandatory:
+  - "guide of souls"
+
+signatures:
+  - "ocelot pride"
+  - "ajani, nacatl pariah"
+  - "orcish bowmasters"
+  - "cabal therapy"
+min_signatures: 2
+
+anti_signatures:
+  - "veteran explorer"
+  - "green sun's zenith"

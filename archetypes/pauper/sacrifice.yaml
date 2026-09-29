@@ -1,0 +1,16 @@
+name: "Sacrifice"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "carrion feeder"
+
+signatures:
+  - "mortician beetle"
+  - "bloodthrone vampire"
+  - "supernatural stamina"
+  - "nezumi linkbreaker"
+  - "village rites"
+  - "shambling ghast"
+  - "rite of consumption"
+min_signatures: 3

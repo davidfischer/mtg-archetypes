@@ -1,0 +1,17 @@
+name: "Stoneblade"
+category: "Control"
+priority: 75
+
+mandatory:
+  - "stoneforge mystic"
+
+signatures:
+  - "swords to plowshares"
+  - "snapcaster mage"
+  - "back to basics"
+  - "teferi, time raveler"
+min_signatures: 2
+
+anti_signatures:
+  - "shuko"
+  - "green sun's zenith"
