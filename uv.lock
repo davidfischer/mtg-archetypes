@@ -22,7 +22,7 @@ wheels = [
 
 [[package]]
 name = "mtg-archetypes"
-version = "2026.9.0"
+version = "2026.9.2"
 source = { editable = "." }
 dependencies = [
     { name = "pyyaml" },
