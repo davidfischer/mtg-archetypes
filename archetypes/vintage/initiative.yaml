@@ -1,12 +1,12 @@
-name: "Mono-White Initiative"
+name: "Initiative"
 category: "Aggro"
 priority: 95
 
 mandatory:
   - card: "White Plume Adventurer"
-    min: 3
+    min: 2
   - card: "Seasoned Dungeoneer"
-    min: 3
+    min: 2
 
 signatures:
   - "Archon of Emeria"
@@ -15,4 +15,4 @@ signatures:
   - "Chancellor of the Annex"
   - "Chrome Mox"
   - "Cavern of Souls"
-min_signatures: 3
+min_signatures: 1

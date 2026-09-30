@@ -1,5 +1,5 @@
 name: "Esper Lurrus"
-category: "Control"
+category: "Lurrus"
 priority: 90
 
 mandatory:
@@ -11,3 +11,12 @@ signatures:
   - "Tundra"
   - "Underground Sea"
 min_signatures: 3
+
+anti_signatures:
+  - "Oswald Fiddlebender"
+  - "Time Vault"
+  - "Volcanic Island"
+  - "Tropical Island"
+  - "Underworld Breach"
+  - "Paradoxical Outcome"
+  - "Deathrite Shaman"

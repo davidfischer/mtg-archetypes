@@ -1,0 +1,23 @@
+name: "Sultai"
+category: "Midrange"
+priority: 90
+
+mandatory:
+  - "Deathrite Shaman"
+  - "Tropical Island"
+  - "Underground Sea"
+
+signatures:
+  - "Oko, Thief of Crowns"
+  - "Collector Ouphe"
+  - "Wasteland"
+  - "Leovold, Emissary of Trest"
+  - "Abrupt Decay"
+  - "Grist, the Hunger Tide"
+  - "Psychic Frog"
+min_signatures: 2
+
+anti_signatures:
+  # This is BUG non-lurrus
+  - "Lurrus of the Dream-Den"
+  - "Volcanic Island"

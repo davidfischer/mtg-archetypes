@@ -1,0 +1,20 @@
+name: "Lurrus Breach"
+category: "Lurrus"
+priority: 90
+
+mandatory:
+  - "Underworld Breach"
+  - "Lurrus of the Dream-Den"
+
+signatures:
+  - "Brain Freeze"
+  - "Gifts Ungiven"
+  - "Demonic Tutor"
+  - "Merchant Scroll"
+  - "wheel of fortune"
+min_signatures: 1
+
+anti_signatures:
+  - "Doomsday"
+  - "Oath of Druids"
+  - "Paradoxical Outcome"

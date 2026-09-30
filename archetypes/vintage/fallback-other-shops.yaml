@@ -1,0 +1,23 @@
+name: "Other Shops"
+category: "Shops"
+priority: 25
+
+mandatory:
+  - card: "Mishra's Workshop"
+    min: 3
+    in: "main"
+
+signatures:
+  - "Patchwork Automaton"
+  - "Phyrexian Metamorph"
+  - "Lodestone Golem"
+  - "Mox Opal"
+  - "Nettlecyst"
+  - "The One Ring"
+  - "Chimil, the Inner Sun"
+  - "Grim Monolith"
+  - "Karn, the Great Creator"
+  - "Trinisphere"
+  - "Chalice of the Void"
+  - "Sphere of Resistance"
+min_signatures: 2

@@ -1,0 +1,21 @@
+name: "Lurrus Vault Key"
+category: "Lurrus"
+priority: 95
+
+mandatory:
+  - "Lurrus of the Dream-Den"
+  - "Time Vault"
+
+signatures:
+  - "Manifold Key"
+  - "Voltaic Key"
+  - "Demonic Tutor"
+  - "Urza's Saga"
+  - "Force of Will"
+min_signatures: 1
+
+anti_signatures:
+  - "Underworld Breach"
+  - "Brain Freeze"
+  - "Deathrite Shaman"
+  - "Paradoxical Outcome"

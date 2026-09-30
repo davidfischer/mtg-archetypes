@@ -1,0 +1,19 @@
+name: "Beseech Storm"
+category: "Combo"
+
+# Higher priority than Tinker (100) and Storm (90)
+priority: 105
+
+mandatory:
+  - "Beseech the Mirror"
+  - "Tendrils of Agony"
+
+signatures:
+  - "Tinker"
+  - "Dark Ritual"
+  - "Cabal Ritual"
+  - "Bolas's Citadel"
+  - "Necropotence"
+  - "Necrodominance"
+  - "Wishclaw Talisman"
+min_signatures: 1

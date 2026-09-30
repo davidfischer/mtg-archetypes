@@ -1,19 +1,21 @@
-name: "Paradoxical Outcome (PO)"
+name: "PO"
 category: "Combo"
 priority: 95
 
 mandatory:
-  - card: "paradoxical outcome"
-    min: 3
+  - "paradoxical outcome"
+  - "tinker"
 
 signatures:
   - "mox opal"
-  - "tinker"
   - "bolas's citadel"
   - "urza's saga"
   - "tolarian academy"
-min_signatures: 2
+min_signatures: 1
 
 anti_signatures:
   - "mishra's workshop"
   - "Lurrus of the Dream-Den"
+  - "Goblin Engineer"
+  - "Underworld Breach"
+  - "Oath of Druids"

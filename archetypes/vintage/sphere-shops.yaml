@@ -1,12 +1,12 @@
 name: "Sphere Shops"
-category: "Combo"
+category: "Shops"
 priority: 95
 
 mandatory:
   - card: "mishra's workshop"
-    min: 3
+    min: 2
   - card: "Sphere of Resistance"
-    min: 3
+    min: 2
 
 signatures:
   - "Thorn of Amethyst"
@@ -18,7 +18,9 @@ signatures:
   - "Golos, Tireless Pilgrim"
   - "Stonecoil Serpent"
   - "Nettlecyst"
+  - "Arcbound Ravager"
+  - "Phyrexian Revoker"
 min_signatures: 2
 
 anti_signatures:
-  - "coveted jewel"
+  - "force of will"

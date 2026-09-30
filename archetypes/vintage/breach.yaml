@@ -1,15 +1,19 @@
-name: "Underworld Breach"
-category: "Aggro"
+name: "Breach"
+category: "Combo"
 priority: 90
 
 mandatory:
   - "Underworld Breach"
 
 signatures:
-  - "Lurrus of the Dream-Den"
   - "Brain Freeze"
   - "Gifts Ungiven"
   - "Demonic Tutor"
   - "Merchant Scroll"
   - "wheel of fortune"
-min_signatures: 3
+min_signatures: 1
+
+anti_signatures:
+  - "Lurrus of the Dream-Den"
+  - "Doomsday"
+  - "Oath of Druids"

@@ -1,0 +1,44 @@
+# Despite the name, this doesn't have to be mono-U
+name: "Blue Control"
+category: "Control"
+
+# Lower than more explicit archetypes but not a fallback
+priority: 75
+
+mandatory:
+  - "Force of Will"
+
+signatures:
+  - "Swords to Plowshares"
+  - "Pyroblast"
+  - "Red Elemental Blast"
+  - "Fatal Push"
+  - "Preordain"
+  - "Ponder"
+  - "Brainstorm"
+  - "Ancestral Recall"
+  - "Mana Drain"
+  - "The One Ring"
+  - "Narset, Parter of Veils"
+  - "Teferi, Time Raveler"
+  - "Prismatic Ending"
+  - "Lightning Bolt"
+  - "Hullbreacher"
+  - "Force of Negation"
+  - "Lórien Revealed"
+  - "Volcanic Island"
+  - "Tundra"
+min_signatures: 4
+
+anti_signatures:
+  - "Tinker"
+  - "Bazaar of Baghdad"
+  - "Mishra's Workshop"
+  - "Doomsday"
+  - "Underworld Breach"
+  - "Paradoxical Outcome"
+  - "Oath of Druids"
+  - "Reanimate"
+  - "Lurrus of the Dream-Den"
+  - "Deathrite Shaman"
+  - "Chrome Mox"

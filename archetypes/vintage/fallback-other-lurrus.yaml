@@ -1,0 +1,26 @@
+name: "Other Lurrus"
+category: "Lurrus"
+priority: 25
+
+mandatory:
+  - "Lurrus of the Dream-Den"
+
+signatures:
+  - "Ancestral Recall"
+  - "Brainstorm"
+  - "Ponder"
+  - "Preordain"
+  - "Dig Through Time"
+  - "Treasure Cruise"
+  - "Force of Will"
+  - "Force of Negation"
+  - "Spell Pierce"
+  - "Gitaxian Probe"
+  - "Swords to Plowshares"
+  - "Fatal Push"
+  - "Pyroblast"
+  - "Lórien Revealed"
+  - "Lavinia, Azorius Renegade"
+  - "Orcish Bowmasters"
+  - "Mishra's Bauble"
+min_signatures: 3

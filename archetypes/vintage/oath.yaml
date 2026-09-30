@@ -13,7 +13,3 @@ signatures:
   - "flash"
   - "gaea's blessing"
 min_signatures: 2
-
-anti_signatures:
-  - "doomsday"
-  - "paradoxical outcome"
