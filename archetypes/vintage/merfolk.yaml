@@ -2,10 +2,6 @@ name: "Merfolk"
 category: "Aggro"
 priority: 90
 
-mandatory:
-  - card: "Cavern of Souls"
-    min: 3
-
 signatures:
   - "true-name nemesis"
   - "vodalian hexcatcher"
@@ -13,4 +9,6 @@ signatures:
   - "Tishana's Tidebinder"
   - "Hullbreacher"
   - "Floodpits Drowner"
+  - "Cavern of Souls"
+  - "Lord of Atlantis"
 min_signatures: 3

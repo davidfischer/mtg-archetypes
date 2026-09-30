@@ -1,5 +1,5 @@
 name: "Lurrus PO"
-category: "Combo"
+category: "Lurrus"
 priority: 100
 
 mandatory:
@@ -11,4 +11,10 @@ signatures:
   - "Thundertrap Trainer"
   - "Flame of Anor"
   - "Tolarian Academy"
-min_signatures: 2
+  - "Sol Ring"
+min_signatures: 1
+anti_signatures:
+  - "Oswald Fiddlebender"
+  - "Doomsday"
+  - "Oath of Druids"
+  - "Goblin Engineer"

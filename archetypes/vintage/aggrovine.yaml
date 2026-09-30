@@ -1,0 +1,25 @@
+name: "Aggrovine"
+category: "Bazaar"
+priority: 95
+
+mandatory:
+  - card: "Bazaar of Baghdad"
+    min: 2
+    in: "main"
+  - "Vengevine"
+
+# Unlike Countervine, Aggrovine needs to make green mana
+signatures:
+  - "Basking Rootwalla"
+  - "Blazing Rootwalla"
+  - "Gaea's Cradle"
+  - "Boseiju, Who Endures"
+  - "Yavimaya, Cradle of Growth"
+  - "Bayou"
+  - "Dryad Arbor"
+  - "Elvish Spirit Guide"
+  - "Once Upon a Time"
+min_signatures: 3
+
+anti_signatures:
+  - "Force of Will"

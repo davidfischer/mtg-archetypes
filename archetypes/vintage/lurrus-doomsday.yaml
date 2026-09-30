@@ -1,9 +1,10 @@
-name: "Doomsday"
-category: "Combo"
+name: "Lurrus Doomsday"
+category: "Lurrus"
 priority: 95
 
 mandatory:
   - "doomsday"
+  - "Lurrus of the Dream-Den"
 
 signatures:
   - "thassa's oracle"
@@ -11,7 +12,4 @@ signatures:
   - "gush"
   - "demonic consultation"
   - "time walk"
-min_signatures: 2
-
-anti_signatures:
-  - "Lurrus of the Dream-Den"
+min_signatures: 1

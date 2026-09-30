@@ -11,8 +11,13 @@ signatures:
   - "Paradox Engine"
   - "Time Vault"
   - "Tezzeret the Seeker"
-min_signatures: 2
+min_signatures: 1
 
 anti_signatures:
   - "coveted jewel"
   - "underworld breach"
+  - "Lurrus of the Dream-Den"
+  - "Mishra's Workshop"
+  - "Oath of Druids"
+  - "Paradoxical Outcome"
+  - "Beseech the Mirror"

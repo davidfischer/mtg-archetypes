@@ -1,0 +1,21 @@
+name: "Scam"
+category: "Aggro"
+priority: 90
+
+mandatory:
+  - "Grief"
+  - "Reanimate"
+
+signatures:
+  - "Entomb"
+  - "Troll of Khazad-dûm"
+  - "Animate Dead"
+  - "Dauthi Voidwalker"
+  - "Orcish Bowmasters"
+  - "Wasteland"
+min_signatures: 1
+
+anti_signatures:
+  - "Lurrus of the Dream-Den"
+  - "Doomsday"
+  - "Bazaar of Baghdad"

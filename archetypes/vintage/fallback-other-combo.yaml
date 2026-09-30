@@ -1,0 +1,47 @@
+name: "Other Combo"
+category: "Combo"
+
+# Other Lurrus (25) should match first
+priority: 20
+
+# Fair decks don't have these cards generally
+signature_groups:
+  - min: 1
+    cards:
+      - "Painter's Servant"
+      - "Grindstone"
+      - "Show and Tell"
+      - "Time Vault"
+      - "Helm of Obedience"
+      - "Necropotence"
+      - "Necrodominance"
+      - "Aetherflux Reservoir"
+      - "Mind's Desire"
+      # Consider removing as some decks splash a fastbond
+      - "Fastbond"
+      - "Yawgmoth's Will"
+      - "Goblin Charbelcher"
+
+signatures:
+  - "Painter's Servant"
+  - "Grindstone"
+  - "Goblin Engineer"
+  - "Goblin Welder"
+  - "Show and Tell"
+  - "Sneak Attack"
+  - "Omniscience"
+  - "Fastbond"
+  - "Yawgmoth's Will"
+  - "Necropotence"
+  - "Necrodominance"
+  - "Time Vault"
+  - "Manifold Key"
+  - "Voltaic Key"
+  - "Helm of Obedience"
+  - "Aetherflux Reservoir"
+  - "Mind's Desire"
+  - "Tendrils of Agony"
+  - "Bolas's Citadel"
+  - "Atraxa, Grand Unifier"
+  - "Archon of Cruelty"
+min_signatures: 2

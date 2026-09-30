@@ -1,10 +1,10 @@
-name: "CounterVine"
-category: "Aggro"
+name: "Countervine"
+category: "Bazaar"
 priority: 95
 
 mandatory:
   - card: "bazaar of baghdad"
-    min: 3
+    min: 2
   - "Vengevine"
 
 signatures:

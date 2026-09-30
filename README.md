@@ -28,6 +28,12 @@ cat ur-delver.txt | mtg-archetypes legacy
 pip install mtg-archetypes
 ```
 
+Or if you have [`uv`](https://docs.astral.sh/uv/) installed, you can use mtg-archetypes directly:
+
+```bash
+cat ur-delver.txt | uvx mtg-archetypes legacy
+```
+
 ---
 
 ## Quickstart
@@ -71,7 +77,7 @@ Category:  Tempo
 ```
 
 ```bash
-cat unknown_pile.txt | mtg-archetypes legacy --verbose
+echo "60 Plains" | mtg-archetypes legacy --verbose
 ```
 ```text
 Archetype: Unclassified
@@ -118,7 +124,7 @@ classifier = ArchetypeClassifier()
 
 # Or use:
 # decklist = "4 Delver of Secrets\n..."
-# mtg_archetypes.cards.parse_decklist_text(decklist)
+# mtg_archetypes.parse_decklist_text(decklist)
 mainboard = [
     "4 Delver of Secrets",
     "4 Daze",
@@ -239,9 +245,6 @@ uv run python scripts/validate_archetypes.py
 
 # Also validate every card name against Scryfall catalog
 uv run python scripts/validate_archetypes.py --check-cards
-
-# Force update local Scryfall cache
-uv run python scripts/validate_archetypes.py --update-scryfall
 ```
 
 ---

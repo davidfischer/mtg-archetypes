@@ -1,9 +1,8 @@
 name: "Red Prison"
-category: "Stompy"
+category: "Prison"
 priority: 90
 
 mandatory:
-  - "simian spirit guide"
   - "magus of the moon"
 
 signatures:
@@ -12,4 +11,6 @@ signatures:
   - "fury"
   - "broadside bombardiers"
   - "null rod"
+  - "chrome mox"
+  - "simian spirit guide"
 min_signatures: 2

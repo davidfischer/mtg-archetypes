@@ -1,10 +1,12 @@
 name: "Dredge"
-category: "Aggro"
-priority: 95
+category: "Bazaar"
+
+# Lower than Aggrovine and Countervine
+priority: 90
 
 mandatory:
   - card: "bazaar of baghdad"
-    min: 3
+    min: 2
 
 signatures:
   - "golgari grave-troll"
@@ -12,7 +14,6 @@ signatures:
   - "hollow one"
   - "ichorid"
   - "Creeping Chill"
+  - "Golgari Thug"
+  - "Shambling Shell"
 min_signatures: 2
-
-anti_signatures:
-  - "Vengevine"

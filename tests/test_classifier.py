@@ -281,3 +281,166 @@ signatures:
     assert res.matched is True
     assert res.name == "Delver"
     assert res.priority == 100
+
+
+def test_vintage_fallback_archetypes(classifier):
+    """Vintage fallback archetypes match when specific rules do not, and have lower priority."""
+    # 1. Other Shops fallback (Karn / Monolith Shops that isn't Jewel or Sphere)
+    res_shops = classifier.classify(
+        [
+            {"card": "Mishra's Workshop", "count": 4},
+            "Karn, the Great Creator",
+            "Grim Monolith",
+            "The One Ring",
+        ],
+        format="vintage",
+    )
+    assert res_shops.matched is True
+    assert res_shops.name == "Other Shops"
+    assert res_shops.slug == "other-shops"
+    assert res_shops.priority == 25
+
+    # 2. Other Lurrus fallback (Jeskai Lurrus without Dimir/Esper specific signatures)
+    res_lurrus = classifier.classify(
+        mainboard_cards=[
+            "Volcanic Island",
+            "Tundra",
+            "Swords to Plowshares",
+            "Ancestral Recall",
+            "Brainstorm",
+            "Force of Will",
+        ],
+        sideboard_cards=["Lurrus of the Dream-Den"],
+        format="vintage",
+    )
+    assert res_lurrus.matched is True
+    assert res_lurrus.name == "Other Lurrus"
+    assert res_lurrus.slug == "other-lurrus"
+    assert res_lurrus.priority == 25
+
+    # 3. Other Combo fallback (Painter combo)
+    res_combo = classifier.classify(
+        ["Painter's Servant", "Grindstone", "Pyroblast", "Force of Will"],
+        format="vintage",
+    )
+    assert res_combo.matched is True
+    assert res_combo.name == "Other Combo"
+    assert res_combo.slug == "other-combo"
+    assert res_combo.priority == 20
+
+    # 4. Other Aggro fallback (Hatebears / Death & Taxes)
+    res_aggro = classifier.classify(
+        [
+            "Thalia, Guardian of Thraben",
+            "Archon of Emeria",
+            "Wasteland",
+            "Karakas",
+            "Plains",
+        ],
+        format="vintage",
+    )
+    assert res_aggro.matched is True
+    assert res_aggro.name == "Other Aggro"
+    assert res_aggro.slug == "other-aggro"
+    assert res_aggro.priority == 20
+
+
+def test_vintage_new_archetypes(classifier):
+    """Test newly added Vintage archetypes from MTGOFormatData."""
+    # 1. Aggrovine
+    res_aggrovine = classifier.classify(
+        [
+            {"card": "Bazaar of Baghdad", "count": 4},
+            {"card": "Vengevine", "count": 4},
+            {"card": "Basking Rootwalla", "count": 4},
+            {"card": "Blazing Rootwalla", "count": 4},
+            {"card": "Gaea's Cradle", "count": 2},
+            {"card": "Bayou", "count": 4},
+        ],
+        format="vintage",
+    )
+    assert res_aggrovine.matched is True
+    assert res_aggrovine.name == "Aggrovine"
+    assert res_aggrovine.slug == "aggrovine"
+
+    # 2. Lurrus Vault Key
+    res_lvk = classifier.classify(
+        mainboard_cards=[
+            "Time Vault",
+            "Manifold Key",
+            "Demonic Tutor",
+            "Force of Will",
+            "Underground Sea",
+        ],
+        sideboard_cards=["Lurrus of the Dream-Den"],
+        format="vintage",
+    )
+    assert res_lvk.matched is True
+    assert res_lvk.name == "Lurrus Vault Key"
+    assert res_lvk.slug == "lurrus-vault-key"
+
+    # 3. Sultai (non-Lurrus BUG)
+    res_sultai = classifier.classify(
+        [
+            "Deathrite Shaman",
+            "Oko, Thief of Crowns",
+            "Wasteland",
+            "Tropical Island",
+            "Underground Sea",
+            "Collector Ouphe",
+        ],
+        format="vintage",
+    )
+    assert res_sultai.matched is True
+    assert res_sultai.name == "Sultai"
+    assert res_sultai.slug == "sultai"
+
+    # 4. Scam
+    res_scam = classifier.classify(
+        [
+            "Grief",
+            "Reanimate",
+            "Entomb",
+            "Troll of Khazad-dûm",
+            "Badlands",
+            "Wasteland",
+        ],
+        format="vintage",
+    )
+    assert res_scam.matched is True
+    assert res_scam.name == "Scam"
+    assert res_scam.slug == "scam"
+
+    # 5. Blue Control
+    res_blue = classifier.classify(
+        [
+            "Force of Will",
+            "Swords to Plowshares",
+            "Pyroblast",
+            "Brainstorm",
+            "Ancestral Recall",
+            "Tundra",
+            "Volcanic Island",
+            "The One Ring",
+        ],
+        format="vintage",
+    )
+    assert res_blue.matched is True
+    assert res_blue.name == "Blue Control"
+    assert res_blue.slug == "blue-control"
+
+    # 6. Beseech Storm
+    res_beseech = classifier.classify(
+        [
+            "Beseech the Mirror",
+            "Tendrils of Agony",
+            "Tinker",
+            "Dark Ritual",
+            "Bolas's Citadel",
+        ],
+        format="vintage",
+    )
+    assert res_beseech.matched is True
+    assert res_beseech.name == "Beseech Storm"
+    assert res_beseech.slug == "beseech-storm"
+    assert res_beseech.priority == 105

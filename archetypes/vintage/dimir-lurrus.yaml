@@ -1,5 +1,5 @@
 name: "Dimir Lurrus"
-category: "Midrange"
+category: "Lurrus"
 priority: 90
 
 mandatory:
@@ -9,6 +9,7 @@ signatures:
   - "Psychic Frog"
   - "Orcish Bowmasters"
   - "Underground Sea"
+  - "Bilbo, Thief in the Night"
 min_signatures: 2
 
 anti_signatures:
@@ -16,3 +17,7 @@ anti_signatures:
   - "Tundra"
   - "Tropical Island"
   - "paradoxical outcome"
+  - "Time Vault"
+  - "Underworld Breach"
+  - "Doomsday"
+  - "Deathrite Shaman"

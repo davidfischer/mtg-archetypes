@@ -1,5 +1,5 @@
 name: "Jewel Shops"
-category: "Prison"
+category: "Shops"
 priority: 95
 
 mandatory:
@@ -13,4 +13,5 @@ signatures:
   - "The One Ring"
   - "Phyrexian Metamorph"
   - "Transmute Artifact"
+  - "Force of Will"
 min_signatures: 2
