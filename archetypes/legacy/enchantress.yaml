@@ -2,8 +2,11 @@ name: "Enchantress"
 category: "Combo"
 priority: 90
 
+# Includes the Helm variety
+
 mandatory:
-  - "argothian enchantress"
+  - card: "argothian enchantress"
+    in: "main"
 
 signatures:
   - "serra's sanctum"
@@ -13,4 +16,6 @@ signatures:
   - "destiny spinner"
   - "enchantresss presence"
   - "sythis harvests hand"
-min_signatures: 3
+  - "Abundant Growth"
+  - "Estrid's Invocation"
+min_signatures: 2

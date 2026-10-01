@@ -3,7 +3,8 @@ category: "Control"
 priority: 100
 
 mandatory:
-  - "standstill"
+  - card: "standstill"
+    in: "main"
 
 signatures:
   - "supreme verdict"

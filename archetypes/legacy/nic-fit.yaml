@@ -3,14 +3,17 @@ category: "Midrange"
 priority: 85
 
 mandatory:
-  - "veteran explorer"
+  - card: "veteran explorer"
+    min: 2
 
 signatures:
   - "cabal therapy"
-  - "green sun's zenith"
+  - "Flare of Cultivation"
+  - "Village Rites"
+  - "Witherbloom Charm"
   - "phyrexian tower"
-  - "assassin's trophy"
-min_signatures: 2
+  - "Lazotep Quarry"
+  - "Greater Gargadon"
 
 anti_signatures:
   - "aluren"

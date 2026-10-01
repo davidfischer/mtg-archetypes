@@ -1,6 +1,8 @@
-name: "GW Depths"
+name: "Naya Depths"
 category: "Combo"
 priority: 90
+
+# Covers pure GW and Naya
 
 mandatory:
   - "dark depths"
@@ -15,7 +17,7 @@ signatures:
   - "Sylvan Safekeeper"
   - "Yavimaya, Cradle of Growth"
   - "Flagstones of Trokair"
-min_signatures: 3
+min_signatures: 2
 
 anti_signatures:
   - "exploration"

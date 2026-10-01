@@ -3,8 +3,9 @@ category: "Control"
 priority: 90
 
 mandatory:
-  - "Lightning Bolt"
-  - "baleful strix"
+  - "volcanic island"
+  - "underground sea"
+  - "badlands"
 
 signatures:
   - "orcish bowmasters"
@@ -12,8 +13,12 @@ signatures:
   - "Nimble Obstructionist"
   - "Cling to Dust"
   - "Brazen Borrower"
-min_signatures: 2
+  - "Lightning Bolt"
+  - "baleful strix"
+min_signatures: 4
 
 anti_signatures:
-  - "assassins trophy"
   - "daze"
+  - "tropical island"
+  - "tendrils of agony"
+  - "beseech the mirror"

@@ -14,5 +14,6 @@ signatures:
 min_signatures: 2
 
 anti_signatures:
+  # Not other combo variants
   - "painter's servant"
   - "sewer-veillance cam"

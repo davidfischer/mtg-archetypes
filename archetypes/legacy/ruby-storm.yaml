@@ -1,9 +1,8 @@
 name: "Ruby Storm"
 category: "Combo"
-priority: 95
 
-mandatory:
-  - "ruby medallion"
+# Higher priority than regular Storm
+priority: 95
 
 signatures:
   - "birgi, god of storytelling"
@@ -12,4 +11,9 @@ signatures:
   - "gamble"
   - "ral, monsoon mage"
   - "seething song"
-min_signatures: 2
+  - "ruby medallion"
+  - "manamorphose"
+min_signatures: 4
+anti_signatures:
+  - card: "Tendrils of Agony"
+    in: "main"

@@ -3,7 +3,8 @@ category: "Combo"
 priority: 95
 
 mandatory:
-  - "balustrade spy"
+  - card: "balustrade spy"
+    in: "main"
 
 signatures:
   - "narcomoeba"
@@ -11,5 +12,7 @@ signatures:
   - "chancellor of the annex"
   - "thassa's oracle"
   - "poxwalkers"
+  - "Memory's Journey"
+  # Banned
   - "undercity informer"
 min_signatures: 2

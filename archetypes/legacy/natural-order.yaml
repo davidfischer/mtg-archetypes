@@ -3,7 +3,8 @@ category: "Combo"
 priority: 90
 
 mandatory:
-  - "natural order"
+  - card: "natural order"
+    in: "main"
 
 signatures:
   - "green suns zenith"
@@ -12,7 +13,7 @@ signatures:
   - "teferi, time raveler"
   - "Uro, Titan of Nature's Wrath"
   - "Atraxa, Grand Unifier"
-min_signatures: 3
+min_signatures: 2
 
 anti_signatures:
   - "Elvish Visionary"

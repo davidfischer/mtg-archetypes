@@ -3,14 +3,14 @@ category: "Combo"
 priority: 90
 
 mandatory:
-  - "shardless agent"
-  - "crashing footfalls"
+  - card: "crashing footfalls"
+    in: "main"
 
 signatures:
-  - "elvish spirit guide"
-  - "fire // ice"
+  - "shardless agent"
   - "violent outburst"
+  - "elvish spirit guide"
   - "simian spirit guide"
-  - "wooded foothills"
+  - "fire // ice"
   - "brazen borrower"
 min_signatures: 3

@@ -3,7 +3,8 @@ category: "Combo"
 priority: 90
 
 mandatory:
-  - "glimpse of nature"
+  - card: "glimpse of nature"
+    in: "main"
 
 signatures:
   - "heritage druid"
@@ -13,7 +14,7 @@ signatures:
   - "nettle sentinel"
   - "natural order"
   - "Elvish Visionary"
-min_signatures: 3
+min_signatures: 2
 
 anti_signatures:
   - "wight of the reliquary"

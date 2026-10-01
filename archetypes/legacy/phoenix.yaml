@@ -1,0 +1,19 @@
+name: "Phoenix"
+category: "Combo"
+
+# Priority higher than Doomsday which sometimes runs Phoenix as a pivot
+priority: 100
+
+mandatory:
+  - card: "Arclight Phoenix"
+    in: "main"
+    min: 3
+
+signatures:
+  - "Buried Alive"
+  - "Dark Ritual"
+  - "Daze"
+  - "Lotus Petal"
+  - "Thoughtseize"
+  - "Lightning Bolt"
+min_signatures: 2

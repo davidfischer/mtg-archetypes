@@ -1,18 +1,26 @@
-name: "UW / Jeskai Control"
+name: "Jeskai Control"
 category: "Control"
 priority: 75
+
+# Includes Jeskai and UW-only varieties
 
 mandatory:
   - "Force of Will"
   - "Swords to Plowshares"
 
 signatures:
-  - "Forth Eorlingas!"
   - "Back to Basics"
+  - "Forth Eorlingas!"
+
+  # Removal Suite
+  - "Prismatic Ending"
+  - "Wrath of the Skies"
+  - "Erode"
+
+  # Some are the PW version
+  - "Narset, Parter of Veils"
   - "Jace the Mind Sculptor"
   - "Teferi, Time Raveler"
-  - "Prismatic Ending"
-  - "Narset, Parter of Veils"
 min_signatures: 3
 
 anti_signatures:

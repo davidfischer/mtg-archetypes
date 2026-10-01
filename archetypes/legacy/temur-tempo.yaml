@@ -1,17 +1,20 @@
-name: "Temur Delver"
+name: "Temur Tempo"
 category: "Tempo"
 priority: 100
 
 mandatory:
-  - "delver of secrets"
+  - "volcanic island"
+  - "tropical island"
+  - "daze"
 
 signatures:
-  - "daze"
-  - "tarmogoyf"
   - "questing druid"
   - "lightning bolt"
   - "force of will"
-  - "tropical island"
+  - "delver of secrets"
+  - "dragon's rage channeler"
+  # For very old decks
+  - "tarmogoyf"
 min_signatures: 2
 
 anti_signatures:

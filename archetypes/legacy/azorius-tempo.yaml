@@ -1,10 +1,14 @@
-name: "UW Tempo"
+name: "Azorius Tempo"
 category: "Tempo"
 priority: 75
 
-mandatory:
-  - "daze"
-  - "swords to plowshares"
+# UW Tempo should always have at least one of these
+signature_groups:
+  - min: 1
+    in: "main"
+    cards:
+      - "daze"
+      - "stifle"
 
 signatures:
   - "brainstorm"
@@ -12,10 +16,11 @@ signatures:
   - "ponder"
   - "force of will"
   - "wasteland"
-  - "stifle"
   - "phelia, exuberant shepherd"
+  - "quantum riddler"
 min_signatures: 3
 
 anti_signatures:
   - "tropical island"
   - "underground sea"
+  - "phyrexian dreadnought"

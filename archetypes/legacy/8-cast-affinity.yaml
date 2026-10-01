@@ -2,15 +2,26 @@ name: "8-Cast / Affinity"
 category: "Stompy"
 priority: 85
 
-mandatory:
-  - "emry, lurker of the loch"
-
+# No mandatory cards
+# This archetype has moved a bit over time
 signatures:
+  - "seat of the synod"
+  - "emry, lurker of the loch"
   - "kappa cannoneer"
   - "thoughtcast"
   - "thought monitor"
-  - "sai, master thopterist"
   - "mishra's bauble"
+  - "urza's bauble"
   - "mox opal"
   - "pinnacle emissary"
-min_signatures: 3
+  - "patchwork automaton"
+  - "metallic rebuke"
+  # Mostly for categorizing old decks at this point, RIP
+  - "sai, master thopterist"
+  - "simulacrum synthesizer"
+  - "sicarian infiltrator"
+min_signatures: 5
+
+anti_signatures:
+  - "painter's servant"
+  - "goblin welder"

@@ -3,14 +3,19 @@ category: "Combo"
 priority: 95
 
 mandatory:
-  - "goblin charbelcher"
+  # Only count maindeck belchers
+  # Some storm/Oops decks pivot into Belcher
+  - card: "goblin charbelcher"
+    in: "main"
+    min: 2
 
 signatures:
   - "tinder wall"
   - "rite of flame"
   - "lotus petal"
   - "land grant"
-min_signatures: 2
+  - "dark ritual"
+min_signatures: 1
 
 anti_signatures:
   - "balustrade spy"

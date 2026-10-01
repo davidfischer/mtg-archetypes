@@ -1,17 +1,21 @@
 name: "Stoneblade"
 category: "Control"
-priority: 75
+
+# Lower priority than D&T, Esper Vial
+priority: 60
 
 mandatory:
-  - "stoneforge mystic"
+  - card: "stoneforge mystic"
+    min: 3
 
 signatures:
   - "swords to plowshares"
   - "snapcaster mage"
   - "back to basics"
   - "teferi, time raveler"
-min_signatures: 2
+min_signatures: 1
 
 anti_signatures:
   - "shuko"
   - "green sun's zenith"
+  - "nadu, winged wisdom"

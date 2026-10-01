@@ -3,8 +3,12 @@ category: "Control"
 priority: 85
 
 mandatory:
-  - "up the beanstalk"
+  - card: "up the beanstalk"
+    min: 2
+    in: "main"
 
+
+# Covers both the more tempo varieties and the more control domain varieties
 signatures:
   - "leyline binding"
   - "murktide regent"
@@ -12,8 +16,11 @@ signatures:
   - "quantum riddler"
   - "force of will"
   - "triumph of saint katherine"
+  - "leyline of the guildpact"
+  - "scion of draco"
 min_signatures: 2
 
 anti_signatures:
-  - "leyline of the guildpact"
-  - "scion of draco"
+  # Classify this as Enchantress instead
+  - card: "argothian enchantress"
+    in: "main"

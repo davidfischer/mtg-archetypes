@@ -12,8 +12,10 @@ signatures:
   - "questing druid // seek the beast"
   - "unstable amulet"
   - "galvanic discharge"
-min_signatures: 3
+  - "walking ballista"
+min_signatures: 2
 
 anti_signatures:
+  # Not food chain goblins
   - "muxus, goblin grandee"
   - "goblin ringleader"

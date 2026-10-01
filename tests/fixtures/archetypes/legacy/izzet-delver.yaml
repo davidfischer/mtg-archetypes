@@ -1,0 +1,27 @@
+name: "Izzet Delver"
+priority: 100
+category: "Tempo"
+
+mandatory:
+  - card: "Delver of Secrets"
+    min: 1
+    in: "main"
+
+signatures:
+  - "Daze"
+  - "Force of Will"
+  - "Lightning Bolt"
+  - "Volcanic Island"
+  - "Brainstorm"
+min_signatures: 2
+
+signature_groups:
+  - cards:
+      - "Daze"
+      - "Force of Will"
+    min: 1
+    in: "main"
+
+anti_signatures:
+  - card: "Gideon of the Trials"
+    in: "main"

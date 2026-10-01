@@ -1,5 +1,7 @@
 name: "Saga Storm"
 category: "Combo"
+
+# Higher than regular Storm
 priority: 95
 
 mandatory:
@@ -13,4 +15,4 @@ signatures:
   - "lotus petal"
   - "Vault of Whispers"
   - "Lion's Eye Diamond"
-min_signatures: 3
+min_signatures: 2

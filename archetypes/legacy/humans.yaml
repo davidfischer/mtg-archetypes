@@ -1,6 +1,6 @@
 name: "Humans"
 category: "Aggro"
-priority: 90
+priority: 60
 
 mandatory:
   - "Cavern of Souls"
@@ -17,4 +17,10 @@ signatures:
   - "Thalia, Guardian of Thraben"
   - "Champion of the Parish"
   - "Unclaimed Territory"
+  - "Coppercoat Vanguard"
+  - "Brutal Cathar"
+  - "Enlistment Officer"
+  - "Palace Jailer"
+  # Rick, Steadfast Leader
+  - "Greymond, Avacyn's Stalwart"
 min_signatures: 4

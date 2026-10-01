@@ -1,9 +1,10 @@
-name: "Paradoxical Outcome (PO)"
+name: "Paradoxical Outcome"
 category: "Combo"
 priority: 90
 
 mandatory:
-  - "paradoxical outcome"
+  - card: "paradoxical outcome"
+    in: "main"
 
 signatures:
   - "glaring fleshraker"

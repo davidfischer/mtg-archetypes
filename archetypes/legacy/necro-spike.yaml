@@ -3,7 +3,8 @@ category: "Combo"
 priority: 90
 
 mandatory:
-  - "soul spike"
+  - card: "soul spike"
+    in: "main"
   - "necrodominance"
 
 signatures:
@@ -12,4 +13,4 @@ signatures:
   - "sheoldred the apocalypse"
   - "the one ring"
   - "ancient cellarspawn"
-min_signatures: 3
+min_signatures: 2

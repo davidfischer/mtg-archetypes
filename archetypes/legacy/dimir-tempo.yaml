@@ -2,6 +2,7 @@ name: "Dimir Tempo"
 category: "Tempo"
 priority: 75
 
+# Strictly requiring Daze does miss some similar decks
 mandatory:
   - "daze"
 
@@ -11,6 +12,7 @@ signatures:
   - "force of will"
   - "undercity sewers"
   - "psychic frog"
+  - "kaito, bane of nightmares"
 min_signatures: 3
 
 anti_signatures:
@@ -20,3 +22,4 @@ anti_signatures:
   - "up the beanstalk"
   - "tropical island"
   - "volcanic island"
+  - "tundra"

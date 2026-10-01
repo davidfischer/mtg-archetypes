@@ -2,12 +2,24 @@ name: "Initiative"
 category: "Stompy"
 priority: 90
 
+# Need at least 2 initiative creatures to be "Initiative"
+signature_groups:
+  - min: 2
+    in: "main"
+    cards:
+      - "caves of chaos adventurer"
+      - "undermountain adventurer"
+      - "seasoned dungeoneer"
+      - "passageway seer"
+      - "ravenloft adventurer"
+      - "Aarakocra Sneak"
+      - "Bloodboil Sorcerer"
+      # Banned
+      - "White Plume Adventurer"
+
 signatures:
-  - "caves of chaos adventurer"
-  - "undermountain adventurer"
-  - "seasoned dungeoneer"
-  - "passageway seer"
-  - "ravenloft adventurer"
   - "ancient tomb"
   - "city of traitors"
-min_signatures: 3
+  - "chrome mox"
+  - "lotus petal"
+min_signatures: 1

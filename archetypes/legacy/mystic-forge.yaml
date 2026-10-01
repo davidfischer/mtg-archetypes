@@ -13,9 +13,11 @@ signatures:
   - "basalt monolith"
   - "karn the great creator"
   - "the one ring"
+  # Banned
   - "vexing bauble"
 min_signatures: 3
 
 anti_signatures:
   - "paradoxical outcome"
+  # Tron
   - "planar nexus"

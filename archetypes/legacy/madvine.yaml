@@ -1,11 +1,17 @@
-name: "MadVine"
+name: "Madvine"
 category: "Aggro"
 priority: 90
 
 mandatory:
   - "vengevine"
-  - "basking rootwalla"
-  - "blazing rootwalla"
+
+signature_groups:
+  # At least one Rootwalla must be in the maindeck
+  - min: 1
+    in: "main"
+    cards:
+      - "Basking Rootwalla"
+      - "Blazing Rootwalla"
 
 signatures:
   - "burning inquiry"

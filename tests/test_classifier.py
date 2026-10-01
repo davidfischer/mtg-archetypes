@@ -1,17 +1,10 @@
 """Tests for ArchetypeClassifier."""
 
-import pytest
-
 from mtg_archetypes.engine import ArchetypeClassifier
 from mtg_archetypes.engine import ArchetypeRule
 from mtg_archetypes.engine import CardRequirement
 from mtg_archetypes.engine import ClassificationResult
 from mtg_archetypes.engine import SignatureGroup
-
-
-@pytest.fixture
-def classifier():
-    return ArchetypeClassifier()
 
 
 def test_classify_matched_rule(classifier):
@@ -283,10 +276,10 @@ signatures:
     assert res.priority == 100
 
 
-def test_vintage_fallback_archetypes(classifier):
+def test_vintage_fallback_archetypes(repo_classifier):
     """Vintage fallback archetypes match when specific rules do not, and have lower priority."""
     # 1. Other Shops fallback (Karn / Monolith Shops that isn't Jewel or Sphere)
-    res_shops = classifier.classify(
+    res_shops = repo_classifier.classify(
         [
             {"card": "Mishra's Workshop", "count": 4},
             "Karn, the Great Creator",
@@ -301,7 +294,7 @@ def test_vintage_fallback_archetypes(classifier):
     assert res_shops.priority == 25
 
     # 2. Other Lurrus fallback (Jeskai Lurrus without Dimir/Esper specific signatures)
-    res_lurrus = classifier.classify(
+    res_lurrus = repo_classifier.classify(
         mainboard_cards=[
             "Volcanic Island",
             "Tundra",
@@ -319,7 +312,7 @@ def test_vintage_fallback_archetypes(classifier):
     assert res_lurrus.priority == 25
 
     # 3. Other Combo fallback (Painter combo)
-    res_combo = classifier.classify(
+    res_combo = repo_classifier.classify(
         ["Painter's Servant", "Grindstone", "Pyroblast", "Force of Will"],
         format="vintage",
     )
@@ -329,7 +322,7 @@ def test_vintage_fallback_archetypes(classifier):
     assert res_combo.priority == 20
 
     # 4. Other Aggro fallback (Hatebears / Death & Taxes)
-    res_aggro = classifier.classify(
+    res_aggro = repo_classifier.classify(
         [
             "Thalia, Guardian of Thraben",
             "Archon of Emeria",
@@ -345,10 +338,10 @@ def test_vintage_fallback_archetypes(classifier):
     assert res_aggro.priority == 20
 
 
-def test_vintage_new_archetypes(classifier):
+def test_vintage_new_archetypes(repo_classifier):
     """Test newly added Vintage archetypes from MTGOFormatData."""
     # 1. Aggrovine
-    res_aggrovine = classifier.classify(
+    res_aggrovine = repo_classifier.classify(
         [
             {"card": "Bazaar of Baghdad", "count": 4},
             {"card": "Vengevine", "count": 4},
@@ -364,7 +357,7 @@ def test_vintage_new_archetypes(classifier):
     assert res_aggrovine.slug == "aggrovine"
 
     # 2. Lurrus Vault Key
-    res_lvk = classifier.classify(
+    res_lvk = repo_classifier.classify(
         mainboard_cards=[
             "Time Vault",
             "Manifold Key",
@@ -380,7 +373,7 @@ def test_vintage_new_archetypes(classifier):
     assert res_lvk.slug == "lurrus-vault-key"
 
     # 3. Sultai (non-Lurrus BUG)
-    res_sultai = classifier.classify(
+    res_sultai = repo_classifier.classify(
         [
             "Deathrite Shaman",
             "Oko, Thief of Crowns",
@@ -396,7 +389,7 @@ def test_vintage_new_archetypes(classifier):
     assert res_sultai.slug == "sultai"
 
     # 4. Scam
-    res_scam = classifier.classify(
+    res_scam = repo_classifier.classify(
         [
             "Grief",
             "Reanimate",
@@ -412,7 +405,7 @@ def test_vintage_new_archetypes(classifier):
     assert res_scam.slug == "scam"
 
     # 5. Blue Control
-    res_blue = classifier.classify(
+    res_blue = repo_classifier.classify(
         [
             "Force of Will",
             "Swords to Plowshares",
@@ -430,7 +423,7 @@ def test_vintage_new_archetypes(classifier):
     assert res_blue.slug == "blue-control"
 
     # 6. Beseech Storm
-    res_beseech = classifier.classify(
+    res_beseech = repo_classifier.classify(
         [
             "Beseech the Mirror",
             "Tendrils of Agony",

@@ -3,7 +3,10 @@ category: "Combo"
 priority: 95
 
 mandatory:
-  - "necrodominance"
+  - card: "necrodominance"
+    in: "main"
+    min: 3
+  - "Tendrils of Agony"
 
 signatures:
   - "Borne Upon a Wind"

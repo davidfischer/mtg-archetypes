@@ -1,0 +1,30 @@
+name: "Sultai Midrange"
+category: "Midrange"
+priority: 60
+
+mandatory:
+  - "underground sea"
+  - "tropical island"
+
+signatures:
+  - "force of will"
+  - "uro, titan of nature's wrath"
+  - "Kaito, Bane of Nightmares"
+  - "Barrowgoyf"
+  - "Baleful Strix"
+  - "Orcish Bowmasters"
+  - "Life from the Loam"
+  - "Witherbloom Command "
+  # RIP
+  - "oko, thief of crowns"
+min_signatures: 3
+
+anti_signatures:
+  - "volcanic island"
+  - "tundra"
+  - "Up the Beanstalk"
+  - "show and tell"
+  - "Golgari Grave-Troll"
+  - "Aluren"
+  - "Food Chain"
+  - "Doomsday"
