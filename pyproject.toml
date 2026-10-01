@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mtg-archetypes"
-version = "2026.9.2"
+version = "2026.9.3"
 description = "Magic: The Gathering deck archetype classifier"
 readme = "README.md"
 requires-python = ">=3.11"
