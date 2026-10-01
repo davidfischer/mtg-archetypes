@@ -5,6 +5,7 @@ import json
 import sys
 from pathlib import Path
 
+from . import __version__
 from .cards import parse_decklist_text
 from .engine import ArchetypeClassifier
 
@@ -14,6 +15,11 @@ def main(args: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="mtg-archetypes",
         description="A fast MTG deck archetype classifier for common formats.",
+    )
+    parser.add_argument(
+        "--version",
+        action="version",
+        version=f"%(prog)s {__version__}",
     )
     parser.add_argument(
         "format",
