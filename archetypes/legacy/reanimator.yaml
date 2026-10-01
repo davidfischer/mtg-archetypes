@@ -2,17 +2,28 @@ name: "Reanimator"
 category: "Combo"
 priority: 95
 
+# Covers pre-ban Dimir Entomb Reanimator
+# and Looting Reanimator
+
 mandatory:
-  - "reanimate"
+  - card: "reanimate"
+    in: "main"
+    # Some decks splash Reanimate, but not Reanimator
+    min: 3
 
 signatures:
-  - "exhume"
   - "archon of cruelty"
   - "atraxa, grand unifier"
-  - "animate dead"
-  - "thoughtseize"
-  - "faithless looting"
   - "Griselbrand"
+
+  - "exhume"
+  - "Shallow Grave"
+  - "animate dead"
+
+  - "unmask"
+  - "faithless looting"
+
+  # Banned
   - "entomb"
   - "grief"
 min_signatures: 3

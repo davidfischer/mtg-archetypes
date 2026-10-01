@@ -1,17 +1,20 @@
-name: "Mono-White Stompy"
+name: "White Stompy"
 category: "Stompy"
 priority: 95
 
-mandatory:
-  - "archon of emeria"
-  - "anointed peacekeeper"
+signature_groups:
+  - min: 1
+    in: "main"
+    cards:
+      - "archon of emeria"
+      - "anointed peacekeeper"
 
 signatures:
   - "solitude"
   - "elite spellbinder"
   - "seasoned dungeoneer"
   - "witch enchanter"
-min_signatures: 2
+min_signatures: 1
 
 anti_signatures:
   - "caves of chaos adventurer"

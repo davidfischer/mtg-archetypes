@@ -5,6 +5,7 @@ priority: 100
 mandatory:
   - card: "Helm of Obedience"
     min: 2
+    in: "main"
 
 signatures:
   - "Sheoldred, the Apocalypse"
@@ -19,5 +20,7 @@ signatures:
 min_signatures: 2
 
 anti_signatures:
+  # Classify as Enchantress
   - "Argothian Enchantress"
+  # Beseech Storm with a pivot
   - "Tendrils of Agony"

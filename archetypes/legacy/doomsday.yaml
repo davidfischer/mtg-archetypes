@@ -3,7 +3,8 @@ category: "Combo"
 priority: 95
 
 mandatory:
-  - "doomsday"
+  - card: "doomsday"
+    in: "main"
 
 signatures:
   - "thassa's oracle"
@@ -11,4 +12,4 @@ signatures:
   - "personal tutor"
   - "edge of autumn"
   - "Cavern of Souls"
-min_signatures: 3
+min_signatures: 2

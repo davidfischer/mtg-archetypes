@@ -3,7 +3,9 @@ category: "Combo"
 priority: 97
 
 mandatory:
-  - "gamble"
+  - card: "gamble"
+    min: 2
+    in: "main"
 
 signatures:
   - "birgi, god of storytelling"

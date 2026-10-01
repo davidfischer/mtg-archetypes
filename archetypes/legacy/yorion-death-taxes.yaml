@@ -3,8 +3,8 @@ category: "Control"
 priority: 88
 
 mandatory:
-  - "yorion, sky nomad"
-  - "recruiter of the guard"
+  - card: "yorion, sky nomad"
+    in: "side"
 
 signatures:
   - "aether vial"
@@ -12,6 +12,8 @@ signatures:
   - "solitude"
   - "karakas"
   - "swords to plowshares"
+  - "recruiter of the guard"
+  - "skyclave apparition"
 min_signatures: 3
 
 anti_signatures:

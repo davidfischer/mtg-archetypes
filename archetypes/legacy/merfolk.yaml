@@ -1,11 +1,17 @@
 name: "Merfolk"
 category: "Aggro"
-priority: 90
+priority: 80
+
+mandatory:
+  - "lord of atlantis"
 
 signatures:
-  - "lord of atlantis"
   - "master of the pearl trident"
   - "vodalian hexcatcher"
   - "silvergill adept"
   - "cursecatcher"
+  - "Tishana's Tidebinder"
+  - "Hullbreacher"
+  - "Floodpits Drowner"
+  - "cavern of souls"
 min_signatures: 2

@@ -12,6 +12,7 @@ signatures:
   - "baleful strix"
   - "meddling mage"
   - "orcish bowmasters"
+  - "brainstorm"
 min_signatures: 2
 
 anti_signatures:

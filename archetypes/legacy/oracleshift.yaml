@@ -3,13 +3,16 @@ category: "Combo"
 priority: 90
 
 mandatory:
-  - "thought lash"
   - "thassas oracle"
   - "paradigm shift"
 
 signatures:
+  - "thought lash"
   - "step through"
   - "cavern of souls"
   - "impulse"
   - "chalice of the void"
   - "stock up"
+
+anti_signatures:
+  - "doomsday"

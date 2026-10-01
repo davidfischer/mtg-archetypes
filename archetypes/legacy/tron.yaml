@@ -2,6 +2,8 @@ name: "Tron"
 category: "Combo"
 priority: 90
 
+# Covers colorless and blue varieties
+
 mandatory:
   - "urza's tower"
 
@@ -11,6 +13,7 @@ signatures:
   - "planar nexus"
   - "urzas saga"
   - "urza's mine"
+  - "urza's workshop"
   - "ancient tomb"
   - "grim monolith"
   - "the one ring"

@@ -1,0 +1,31 @@
+name: "Black Aggro"
+category: "Aggro"
+priority: 55
+
+signatures:
+  - "Sheoldred, the Apocalypse"
+  - "barrowgoyf"
+  - "the one ring"
+  - "Chalice of the Void"
+  - "Rotting Regisaur"
+  - "dark ritual"
+  - "ancient tomb"
+  - "City of Traitors"
+  - "Exsanguinator Cavalry"
+  - "dauthi voidwalker"
+  - "Nethergoyf"
+  - "Moonshadow"
+  - "Opposition Agent"
+  - "Snuff Out"
+min_signatures: 5
+
+anti_signatures:
+  # Black aggro is a fair deck, not a combo deck
+  - "Helm of Obedience"
+  - "Tendrils of Agony"
+  - "Doomsday"
+  - "Beseech the Mirror"
+  # Classify as Hogaak
+  - "Hogaak, Arisen Necropolis"
+  # Don't mix this up with some UB deck
+  - "Force of Will"

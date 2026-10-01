@@ -2,19 +2,23 @@ name: "Blue Zenith"
 category: "Midrange"
 priority: 75
 
+# Fair Zenith
+# Not Natural Order or other combo (Nadu)
+
 mandatory:
-  - "green suns zenith"
-  - "Force of Will"
+  - card: "green suns zenith"
+    in: "main"
+  - card: "Force of Will"
+    in: "main"
 
 signatures:
-  - "green suns zenith"
   - "ice-fang coatl"
   - "delighted halfling"
   - "teferi, time raveler"
   - "Uro, Titan of Nature's Wrath"
-  - "Atraxa, Grand Unifier"
-min_signatures: 3
+min_signatures: 1
 
 anti_signatures:
   - "Natural Order"
+  # Banned but a different archetype
   - "Nadu, Winged Wisdom"

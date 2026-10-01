@@ -1,16 +1,20 @@
-name: "Storm (ANT / TES)"
+name: "Storm"
 category: "Combo"
 priority: 90
 
-signatures:
+mandatory:
   - "tendrils of agony"
+
+signatures:
   - "infernal tutor"
   - "wishclaw talisman"
   - "dark ritual"
+  - "cabal ritual"
   - "lion's eye diamond"
   - "burning wish"
   - "lotus petal"
   - "ad nauseam"
+  - "beseech the mirror"
 min_signatures: 3
 
 anti_signatures:

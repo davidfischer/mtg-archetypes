@@ -1,6 +1,8 @@
 name: "Spellseeker"
 category: "Midrange"
-priority: 90
+
+# Lower than Esper Vial, higher than Blue Zenith
+priority: 80
 
 mandatory:
   - "spellseeker"

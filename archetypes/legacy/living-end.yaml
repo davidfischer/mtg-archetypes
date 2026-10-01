@@ -3,7 +3,8 @@ category: "Combo"
 priority: 90
 
 mandatory:
-  - "living end"
+  - card: "living end"
+    in: "main"
 
 signatures:
   - "bloodbraid marauder"
@@ -11,6 +12,8 @@ signatures:
   - "generous ent"
   - "colossal skyturtle"
   - "animate dead"
+  - "Architects of Will"
+  # Banned
   - "troll of khazad-dum"
   - "grief"
 min_signatures: 2

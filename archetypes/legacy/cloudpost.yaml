@@ -11,5 +11,7 @@ signatures:
   - "expedition map"
   - "planar nexus"
   - "Stock Up"
+
+  # Banned
   - "candelabra of tawnos"
 min_signatures: 2

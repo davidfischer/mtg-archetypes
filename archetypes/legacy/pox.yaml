@@ -3,7 +3,8 @@ category: "Control"
 priority: 85
 
 mandatory:
-  - "smallpox"
+  - card: "smallpox"
+    in: "main"
 
 signatures:
   - "eumidian hatchery"
@@ -11,6 +12,9 @@ signatures:
   - "mox diamond"
   - "liliana of the veil"
   - "wasteland"
+  - "karn, the great creator"
+  - "crucible of worlds"
+  - "flagstones of trokair"
 min_signatures: 2
 
 anti_signatures:

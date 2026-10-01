@@ -1,9 +1,11 @@
 name: "Cephalid Breakfast"
 category: "Combo"
+
 priority: 95
 
 mandatory:
-  - "cephalid illusionist"
+  - card: "cephalid illusionist"
+    in: "main"
 
 signatures:
   - "nomads en-kor"

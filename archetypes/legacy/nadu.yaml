@@ -2,12 +2,15 @@ name: "Nadu"
 category: "Combo"
 priority: 90
 
+# This whole archetype is banned but here for historical classification
+
 mandatory:
   - "nadu winged wisdom"
 
 signatures:
   - "nomads en-kor"
   - "sylvan safekeeper"
+  - "Elvish Herder"
   - "shuko"
   - "green sun's zenith"
   - "plagon, lord of the beach"

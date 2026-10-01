@@ -1,0 +1,18 @@
+name: "Grixis Tempo"
+category: "Tempo"
+priority: 100
+
+mandatory:
+  - "volcanic island"
+  - "underground sea"
+  - "daze"
+
+signatures:
+  - "delver of secrets"
+  - "dragon's rage channeler"
+  - "orcish bowmasters"
+  - "snuff out"
+  - "lightning bolt"
+  - "murktide regent"
+  - "fatal push"
+min_signatures: 2

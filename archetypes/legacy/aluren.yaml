@@ -1,0 +1,20 @@
+name: "Aluren"
+category: "Combo"
+priority: 90
+
+mandatory:
+  - card: "aluren"
+    min: 3
+
+signatures:
+  - "cavern harpy"
+  - "Acererak the Archlich"
+  - "Formidable Speaker"
+  - "Baleful Strix"
+  - "Ice-Fang Coatl"
+  - "Uro, Titan of Nature's Wrath"
+min_signatures: 2
+anti_signatures:
+  # Current Omnitell uses Aluren - classify there
+  - card: "Show and Tell"
+    in: "main"

@@ -202,12 +202,9 @@ mandatory:
 
 # Multiple signature pools evaluated with AND logic
 signature_groups:
+  # At least one of either Rootwalla must be in the maindeck
+  # "min: 2" would mean *both* Rootwallas
   - min: 1
-    in: "main"
-    cards:
-      - "Master of Death"
-      - "Squee, Goblin Nabob"
-  - min: 2
     in: "main"
     cards:
       - "Basking Rootwalla"
@@ -217,7 +214,7 @@ signature_groups:
 ### Priority System & Conventions
 
 - **Priority >= 50**: Specific variants should have higher priority than their broader counterparts (eg. Red Prison vs Red Stompy).
-- **Priority < 50**: Broad "fallback" or "good stuff" archetypes (e.g. generic *Control*, *Midrange*, or *Stompy* catch-alls). Also, decks like *Stoneblade* may be here so they don't match more specific archetypes like *Death & Taxes*.
+- **Priority < 50**: Broad "fallback" or "good stuff" archetypes (e.g. generic *Control*, *Midrange*, or *Stompy* catch-alls).
 - The highest priority archetype where all the "mandatory", "signature_groups", and none of the "anti_signature" rules match will be selected. In the event a deck matches two archetypes of equal priority, the archetype with more rules be selected.
 
 ### Supported Directives

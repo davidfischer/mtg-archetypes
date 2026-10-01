@@ -16,5 +16,8 @@ signatures:
 min_signatures: 2
 
 anti_signatures:
+  # Not Esper Vial
   - "force of will"
   - "brainstorm"
+  # Not Yorion D&T
+  - "yorion, sky nomad"

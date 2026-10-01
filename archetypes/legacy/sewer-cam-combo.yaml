@@ -2,9 +2,15 @@ name: "Sewer Cam Combo"
 category: "Combo"
 priority: 90
 
+# Basically 8-Cast but with Welder/Cam
+# However, if the deck has Painter, classify as Painter
+# even if it has Welder/Cam
+
 mandatory:
-  - "sewer-veillance cam"
-  - "goblin welder"
+  - card: "sewer-veillance cam"
+    in: "main"
+  - card: "goblin welder"
+    in: "main"
 
 signatures:
   - "goblin engineer"
@@ -12,7 +18,10 @@ signatures:
   - "great furnace"
   - "emry, lurker of the loch"
   - "legion extruder"
-min_signatures: 3
+  - "Pinnacle Emissary"
+  - "Seat of the Synod"
+min_signatures: 2
 
 anti_signatures:
-  - "painter's servant"
+  - card: "painter's servant"
+    in: "main"

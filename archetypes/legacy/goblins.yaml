@@ -1,6 +1,8 @@
 name: "Goblins"
 category: "Aggro"
-priority: 90
+
+# Food Chain Goblins should be categorized here
+priority: 85
 
 signatures:
   - "goblin lackey"
@@ -8,4 +10,5 @@ signatures:
   - "muxus, goblin grandee"
   - "rundvelt hordemaster"
   - "goblin matron"
+  - "munitions expert"
 min_signatures: 3

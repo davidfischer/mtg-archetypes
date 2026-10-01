@@ -1,0 +1,21 @@
+name: "Car Combo"
+category: "Combo"
+
+# Archetype is banned but here for historical classification
+
+# Low priority because the car was splashed in lots of decks
+# eg. Tron Car, Affinity Car, Doomsday Car
+# Good riddance...
+priority: 60
+
+mandatory:
+  - card: "The Fantasticar"
+    in: "main"
+
+signatures:
+  - "Dark Ritual"
+  - "Lotus Petal"
+  - "Urza's Bauble"
+  - "Chrome Mox"
+  - "Mox Opal"
+min_signatures: 1

@@ -1,0 +1,21 @@
+name: "Ninjas"
+category: "Tempo"
+priority: 95
+
+# Some late 2026 ninjas decks don't have both
+signature_groups:
+  - min: 1
+    in: "main"
+    cards:
+      - "yuriko, the tiger's shadow"
+      - "ingenious infiltrator"
+
+signatures:
+  - "retrofitter foundry"
+  - "changeling outcast"
+  - "satoru, the infiltrator"
+  - "moon-circuit hacker"
+  - "ornithopter"
+  - "murderous cut"
+  - "Kaito, Bane of Nightmares"
+min_signatures: 2

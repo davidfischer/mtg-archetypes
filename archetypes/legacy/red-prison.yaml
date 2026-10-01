@@ -2,8 +2,11 @@ name: "Red Prison"
 category: "Stompy"
 priority: 90
 
+# Higher priority than Red Stompy/Dragon Stompy
+
 mandatory:
-  - "blood moon"
+  - card: "blood moon"
+    in: "main"
 
 signatures:
   - "chalice of the void"
