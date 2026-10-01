@@ -11,7 +11,7 @@ from .engine import ClassificationResult
 from .engine import SignatureGroup
 
 
-__version__ = "2026.9.2"
+__version__ = "2026.9.3"
 
 __all__ = [
     "ArchetypeClassifier",
