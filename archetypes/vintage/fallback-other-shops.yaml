@@ -4,7 +4,7 @@ priority: 25
 
 mandatory:
   - card: "Mishra's Workshop"
-    min: 3
+    min: 2
     in: "main"
 
 signatures:
