@@ -4,6 +4,9 @@ import io
 import json
 from unittest.mock import patch
 
+import pytest
+
+from mtg_archetypes import __version__
 from mtg_archetypes.cli import main
 
 
@@ -91,3 +94,12 @@ def test_cli_default_rules_dir(tmp_path, capsys):
     deck.write_text("60 Plains\n", encoding="utf-8")
     code = main(["legacy", str(deck)])
     assert code == 0
+
+
+def test_cli_version(capsys):
+    """Test that --version prints version and exits with status 0."""
+    with pytest.raises(SystemExit) as excinfo:
+        main(["--version"])
+    assert excinfo.value.code == 0
+    captured = capsys.readouterr()
+    assert captured.out.strip() == f"mtg-archetypes {__version__}"

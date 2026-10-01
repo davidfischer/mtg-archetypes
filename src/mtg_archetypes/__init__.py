@@ -19,6 +19,7 @@ __all__ = [
     "CardRequirement",
     "ClassificationResult",
     "SignatureGroup",
+    "__version__",
     "expand_card_counts",
     "normalize_card_name",
     "parse_decklist_text",
