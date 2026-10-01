@@ -11,7 +11,7 @@ cat ur-delver.txt | mtg-archetypes legacy
 
 ## Overview
 
-`mtg-archetypes` is a rule-based deck archetype classifier for MTG across competitive formats (Legacy, Vintage, Modern, Pioneer, Pauper, Premodern, Standard).
+`mtg-archetypes` is a rule-based deck archetype classifier for MTG across competitive formats focusing on MTGO (Legacy, Vintage, Modern, Pioneer, Pauper, Premodern, Standard). It was built as the classifier to [MODOMeta](https://modometa.com/).
 
 - **Declarative**: One YAML file per archetype with archetype defining card constraints
 - **Board scope awareness**: Enforce cards in mainboard (`in: "main"`), sideboard (`in: "side"`), or anywhere in the 75
@@ -19,6 +19,21 @@ cat ur-delver.txt | mtg-archetypes legacy
 - **Multi-group signature logic**: Require combinations across multiple card pools (`signature_groups`)
 - **Deterministic**: A deck either matches a defined archetype or goes unclassified
 - **CLI & Library**: Use the standalone command line tool or use it as a Python module
+
+
+### Coverage
+
+Of MTGO league + challenge decks, this module currently classifies (see [this](scripts/classify_mtgo_decks.py)):
+
+- Vintage: 99%+ (thanks IamActuallyLvL1)
+- Legacy: 95%+
+- Modern: 82%
+- Premodern: 95%+
+- Pauper: 92%
+- Pioneer: 0%
+- Standard: 0%
+
+Get involved by adding known archetypes!
 
 ---
 
